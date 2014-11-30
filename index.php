@@ -11,7 +11,6 @@ include ("Assets/include/module.php");
 include ("Assets/include/dbmapper.php");
 $connexion = new PDO ( $dns, $user, $password );
 DBMapper::init ( $connexion );
-
 ?>
 <!doctype html>
 <html lang="fr">

@@ -66,4 +66,7 @@ footer{
 margin-top:12px;	
 	
 }
-}
+html, body {
+ margin:0;
+ padding:0;
+ }
