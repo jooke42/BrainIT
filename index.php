@@ -114,6 +114,11 @@ DBMapper::init ( $connexion );
 
 	<!-- *************************FIN*NAV DE DROITE*************************** -->
 
+	
+	
+	
+	
+	
 	<!-- *****************************CAROUSEL****************************** -->
 	<div class="container ">
 		<div class="row">
@@ -170,6 +175,10 @@ DBMapper::init ( $connexion );
 													$module = $_GET ['Module'];
 													include ('Modules/Module_' . $module . '/' . $module . '.php');
 													$monModule = new $module ();
+												}else{
+													$module="HomePage";
+													include ('Modules/Module_' . $module . '/' . $module . '.php');
+													$monModule = new $module ();
 												}
 												ob_end_flush ();
 												?>
@@ -181,7 +190,7 @@ DBMapper::init ( $connexion );
 
 			</div>
 			</div>
-			</br>
+			
 		</div>
 	</div>
 
@@ -203,3 +212,4 @@ DBMapper::init ( $connexion );
 <script src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/material.min.js"></script>
 <script src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/ripples.min.js"></script>
 </html>
+<?php ?>
