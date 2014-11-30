@@ -1,18 +1,31 @@
 <?php
 
-class ModeleConnexion extends DBMapper {
-	protected $_listeTopArticle=array();
-	protected $_listeCategory= array();
+class ModeleHomePage extends DBMapper {
+	protected $_listeTopArticleParCategorie=array();
+	protected $_listeCategorie= array();
 	
 	function  __construct(){
-		$req=self::$database->prepare("select id from categorie ");
+		$req=self::$database->prepare("select idCategorie,libelle from categorie ");
 		$req->execute();
-		$resultat=$req->fetchall();
-		foreach ($resultat as $category) {
-			array_push($this->_listeCategory, $article);
+		$this->_listeCategorie=$req->fetchall();
+		foreach ($this->_listeCategorie as $categorie) {
+			$this->_listeTopArticleParCategorie[$categorie['libelle']]=array();
+			$idCat=$categorie['idCategorie'];
+			$req=self::$database->prepare("select  idArticle from article where idArticle=$idCat LIMIT 3 ");
+			$req->execute();
+			$resultat=$req->fetchall();
+			
+			
+			foreach ($resultat as $article) {
+				array_push($this->_listeTopArticleParCategorie[$categorie['libelle']],new ModeleArticle($article['idArticle']));
+			}
+
 		}
 		
 		
+	}
+	function getListeTopArticle(){
+		return $this->_listeTopArticleParCategorie;
 	}
 
 	

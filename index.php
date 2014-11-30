@@ -182,16 +182,7 @@ DBMapper::init ( $connexion );
 												}
 												ob_end_flush ();
 												?>
-			<div id="articleVitrine">
-			<div class="col-lg-4">
-			<div class="panel panel-default ">
-				<div class="panel-heading" style="text-align:center;">Carte mère</div>
-				<div class="panel-body">description produit etc</div>
-
-			</div>
-			</div>
 			
-		</div>
 	</div>
 
 </body>

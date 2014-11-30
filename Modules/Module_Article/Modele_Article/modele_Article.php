@@ -31,7 +31,7 @@ class ModeleArticle extends DBMapper
         ;
 
         $articleDonnees = $reponse->fetch();
-	print_r($articleDonnees);
+
         if ($articleDonnees == NULL) {
             throw new Exception("L'identifiant d'article :" . $id_article . " n'existe pas.");
         }

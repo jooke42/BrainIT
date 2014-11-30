@@ -1,17 +1,18 @@
 <?php
 if (! defined ('TEST_INCLUDE'))
 	die ("Vous ne pouvez pas acceder directement à ce fichier");
-include_once("Modele_Article/modele_Article.php");
+include_once("Modules/Module_Article/Modele_Article/modele_Article.php");
 include_once("Controleur_".$module."/controleur_".$module.".php");
 include_once("Vue_".$module."/vue_".$module.".php");
 include_once("Modele_".$module."/modele_".$module.".php");
 
-class Connexion extends Module {
+class HomePage extends Module {
 	function __construct() {
 
 		$module=get_class($this);
 		$nomControleur='Controleur'.$module;
 		$monControleur=new $nomControleur($module);
+		$modele = new ModeleHomePage();
 		if(!isset($action)) {
 			if(isset($_GET['action'])) {
 				$action=$_GET['action'];
@@ -25,26 +26,17 @@ class Connexion extends Module {
 
 		switch($action) {
 			case 0:
-
-				$monControleur->affichageFormConnexion();
+				$monControleur->afficherHomePage($modele->getListeTopArticle());
 				break;
 
-			case 1:
-				$monControleur->connexion($email,$pass);
-				break;
-
-			case 2:
-
-				echo "/!\ Mot de passe incorrect /!\ ";
-				$monControleur->affichageFormConnexion();
-				break;
+			
 
 			default:
 				echo "default";
 				break;
 		}
 	}
-
+	
 }
 
 
