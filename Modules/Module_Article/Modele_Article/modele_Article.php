@@ -91,7 +91,7 @@ class ModeleArticle extends DBMapper
 
 
 	function getArticle(){
-	$article=array(
+	return $article=array(
 	'id_article' => $this->_id_article,
         'reference' => $this->_reference,
         'libelle' => $this->_libelle,
