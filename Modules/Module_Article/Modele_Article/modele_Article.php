@@ -35,7 +35,7 @@ class ModeleArticle extends DBMapper
         if ($articleDonnees == NULL) {
             throw new Exception("L'identifiant d'article :" . $id_article . " n'existe pas.");
         }
-        echo "oklm";
+        
         
         $this->_id_article = $articleDonnees['idArticle'];
         $this->_reference        = $articleDonnees['reference'];

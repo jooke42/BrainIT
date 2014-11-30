@@ -17,7 +17,7 @@ class Article extends Module {
         echo $nomControleur;
         $monControleur=new $nomControleur($module);
 
-        echo "oklm";
+        
 
 
         if(!isset($action)) {
