@@ -120,7 +120,7 @@ DBMapper::init ( $connexion );
 	
 	
 	<!-- *****************************CAROUSEL****************************** -->
-	<div class="container ">
+	
 		<div class="row">
 			<div id="my_carousel" class="col-lg-12 carousel slide  "
 				data-ride="carousel">
@@ -183,7 +183,7 @@ DBMapper::init ( $connexion );
 												ob_end_flush ();
 												?>
 			
-	</div>
+	
 
 </body>
 
