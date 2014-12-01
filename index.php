@@ -61,14 +61,14 @@ DBMapper::init ( $connexion );
 						class="dropdown-toggle" data-toggle="dropdown">Catégories <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="index.php?Module=Categorie&action=carteMere">Carte mère</a></li>
-							<li><a href="index.php?Module=Categorie&action=carteGraphique">Carte graphique</a></li>
-							<li><a href="index.php?Module=Categorie&action=disqueDur">Disque dur</a></li>
-							<li><a href="index.php?Module=Categorie&action=MemoireVive">Mémoire vive</a></li>
-							<li><a href="index.php?Module=Categorie&action=Processeur">Processeur</a></li>
-							<li><a href="index.php?Module=Categorie&action=Peripherique">Périphériques</a></li>
-							<li><a href="index.php?Module=Categorie&action=Souris">Souris</a></li>
-							<li><a href="index.php?Module=Categorie&action=Clavier">Clavier</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Carte+mere">Carte mère</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Carte+graphique">Carte graphique</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Disque+dur">Disque dur</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Memoire+vive">Mémoire vive</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Processeur">Processeur</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Peripherique">Périphériques</a></li>
+							<li><a href="index.php?Module=Categorie&action=0&categorie=Souris">Souris</a></li>
+							<li><a href="index.php?Module=Categorie&action=0$categorie=Clavier">Clavier</a></li>
 						</ul></li>
 				</ul>
 				<form class="navbar-form navbar-left">

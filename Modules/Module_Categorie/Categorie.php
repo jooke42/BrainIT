@@ -12,7 +12,7 @@ class Categorie extends Module {
 		$module=get_class($this);
 		$nomControleur='Controleur'.$module;
 		$monControleur=new $nomControleur($module);
-		$modele = new ModeleHomePage();
+		$modele = new ModeleCategorie();
 		if(!isset($action)) {
 			if(isset($_GET['action'])) {
 				$action=$_GET['action'];
@@ -26,7 +26,10 @@ class Categorie extends Module {
 
 		switch($action) {
 			case 0:
-				$monControleur->afficherHomePage($modele->getListeTopArticle());
+				$order=isset($_GET['order'])?$_GET['order'] :'libelle';
+				$categorie=isset($_GET['categorie'])?$_GET['categorie'] :'Clavier';
+				$listeArticle=$modele->getListeArticle($categorie,$order);
+				$monControleur->afficherArticle($listeArticle);
 				break;
 
 					
