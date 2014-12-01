@@ -56,20 +56,19 @@ DBMapper::init ( $connexion );
 			</div>
 			<div class="navbar-collapse collapse navbar-responsive-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a id="navColor" href="javascript:void(0)">Active</a></li>
-					<li><a id="navColor" href="javascript:void(0)">Link</a></li>
+					<li class="active"><a id="navColor" href="javascript:void(0)">Accueil</a></li>
 					<li class="dropdown"><a id="navColor" href="javascript:void(0)"
 						class="dropdown-toggle" data-toggle="dropdown">Catégories <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="javascript:void(0)">Carte mère</a></li>
-							<li><a href="javascript:void(0)">Carte graphique</a></li>
-							<li><a href="javascript:void(0)">Disque dur</a></li>
-							<li><a href="javascript:void(0)">Mémoire vive</a></li>
-							<li><a href="javascript:void(0)">Processeur</a></li>
-							<li><a href="javascript:void(0)">Périphériques</a></li>
-							<li><a href="javascript:void(0)">Souris</a></li>
-							<li><a href="javascript:void(0)">Clavier</a></li>
+							<li><a href="index.php?Module=Categorie&action=carteMere">Carte mère</a></li>
+							<li><a href="index.php?Module=Categorie&action=carteGraphique">Carte graphique</a></li>
+							<li><a href="index.php?Module=Categorie&action=disqueDur">Disque dur</a></li>
+							<li><a href="index.php?Module=Categorie&action=MemoireVive">Mémoire vive</a></li>
+							<li><a href="index.php?Module=Categorie&action=Processeur">Processeur</a></li>
+							<li><a href="index.php?Module=Categorie&action=Peripherique">Périphériques</a></li>
+							<li><a href="index.php?Module=Categorie&action=Souris">Souris</a></li>
+							<li><a href="index.php?Module=Categorie&action=Clavier">Clavier</a></li>
 						</ul></li>
 				</ul>
 				<form class="navbar-form navbar-left">
@@ -113,67 +112,14 @@ DBMapper::init ( $connexion );
 	</nav>
 
 	<!-- *************************FIN*NAV DE DROITE*************************** -->
-
-	
-	
-	
-	
-	
-	<!-- *****************************CAROUSEL****************************** -->
-
-	
-
 	<div class="container">
-
-		<div class="row">
-			<div id="my_carousel" class="col-lg-12 carousel slide  "
-				data-ride="carousel">
-				<!-- Bulles -->
-				<ol class="carousel-indicators">
-					<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#my_carousel" data-slide-to="1"></li>
-					<li data-target="#my_carousel" data-slide-to="2"></li>
-				</ol>
-
-				<!-- Slides -->
-				<div class="carousel-inner">
-					<!-- Page 1 -->
-					<div class="item active">
-						<div class="carousel-page">
-							<img id="imgCarrousel" src="Assets/img/4.jpg"
-								class="img-responsive" />
-						</div>
-						<div class="carousel-caption">Bienvenue sur BrainIT !</div>
-					</div>
-					<!-- Page 2 -->
-					<div class="item">
-						<div class="carousel-page">
-							<img id="imgCarrousel" src="Assets/img/2.jpg"
-								class="img-responsive img-rounded" />
-						</div>
-						<div class="carousel-caption">Page 2 de présentation</div>
-					</div>
-					<!-- Page 3 -->
-					<div class="item">
-						<div class="carousel-page">
-							<img id="imgCarrousel" src="Assets/img/3.jpg"
-								class="img-responsive img-rounded" />
-						</div>
-						<div class="carousel-caption">Page 3 de présentation</div>
-					</div>
-				</div>
-				<!-- Contrôles -->
-				<a class="left carousel-control" href="#my_carousel"
-					data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
-				</a> <a class="right carousel-control" href="#my_carousel"
-					data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			</div>
-		</div>
-
-
-		<!-- *************************FIN*CAROUSEL****************************** -->
-        <div id="articleVitrine">
+	
+	
+	
+	
+	
+	
+        
             <?php
 												if (isset ( $_GET ['Module'] )) {
 													$module = $_GET ['Module'];
@@ -188,7 +134,7 @@ DBMapper::init ( $connexion );
 												?>
 			
 	</div>
-	</div>
+	
 </body>
 
 <!-- *************************************************************************************END*BODY************************************************************************************ -->
