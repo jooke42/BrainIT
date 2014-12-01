@@ -4,7 +4,7 @@ class VueHomePage {
 		
 	}
 	function afficherHomePage($listeTopArticle){
-		?><div id="articleVitrine"><?php
+		
 		$compteur=0;
 		foreach ($listeTopArticle as $categorie => $ListeArticle) {
 			if ($compteur%3==0 && $compteur!=0){
@@ -35,8 +35,5 @@ class VueHomePage {
 		}
 			
 		
-		?>
-		</div>
-		<?php
 	}
 }

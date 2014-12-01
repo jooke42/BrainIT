@@ -22,11 +22,12 @@ DBMapper::init ( $connexion );
 <link rel="stylesheet"
 	href="Assets/CSS/bootstrap-3.3.1-dist/dist/css/bootstrap.min.css">
 
-<link rel="stylesheet"
-	href="Assets/CSS/bootstrap-3.3.1-dist/dist/css/bootstrap-theme.min.css">
+
 
 <link rel="stylesheet"
-	href="Assets/CSS/bootstrap-3.3.1-dist/dist/css/ripples.min.css">
+	href="Assets/CSS/materialDesign/css/ripples.min.css">
+	<link rel="stylesheet"
+	href="Assets/CSS/materialDesign/css/material-wfont.min.css">
 
 <link rel="stylesheet"
 	href="Assets/CSS/bootstrap-3.3.1-dist/dist/css/material.min.css">
@@ -172,7 +173,7 @@ DBMapper::init ( $connexion );
 
 
 		<!-- *************************FIN*CAROUSEL****************************** -->
-        
+        <div id="articleVitrine">
             <?php
 												if (isset ( $_GET ['Module'] )) {
 													$module = $_GET ['Module'];
@@ -186,7 +187,7 @@ DBMapper::init ( $connexion );
 												ob_end_flush ();
 												?>
 			
-	
+	</div>
 	</div>
 </body>
 
@@ -198,10 +199,17 @@ DBMapper::init ( $connexion );
 
 <script type="text/javascript"></script>
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/jquery-1.11.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/bootstrap.min.js"></script>
-<script src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/material.min.js"></script>
-<script src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/ripples.min.js"></script>
+
+
+<script src="Assets/CSS/materialDesign/js/ripples.min.js"></script>
+        <script src="Assets/CSS/materialDesign/js/material.min.js"></script>
+         <script>
+            $(document).ready(function() {
+                $.material.init();
+            });
+        </script>
 </html>
 <?php ?>
