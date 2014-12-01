@@ -4,6 +4,7 @@ class VueConnexion {
 		if (! isset ( $_SESSION ['Utilisateur'] )) {
 			?><div class="col-md-offset-4 col-md-4">
 	<div class="jumbotron">
+		<legend>Connexion espace membre</legend>
 		<form class="form-horizontal" name="input"
 			action="index.php?Module=Connexion&action=1" method="post"
 			enctype="multipart/form-data">
@@ -13,7 +14,7 @@ class VueConnexion {
 		
 
 
-				<div class="col-lg-10">
+				<div class="col-lg-12">
 
 					<input type="email" class="form-control" id="inputEmail"
 						placeholder="Email">
@@ -21,14 +22,14 @@ class VueConnexion {
 			</div>
 			<div class="form-group">
 			<label for="inputPassword" class="col-lg-3 control-label">Password</label>
-			<div class="col-lg-10">
+			<div class="col-lg-12">
 				<input type="password" class="form-control" id="inputPassword"
 					placeholder="Password">
 
 			</div>
 			</div>
-
-			<input name="Envoyer" value="Envoyer" type="submit">
+			<button name="Envoyer"  value="Envoyer" type="submit" class="btn btn-primary pull-right">Envoyer</button>
+			
 
 		</form>
 		<br>
