@@ -37,7 +37,7 @@ class VueConnexion {
 			<a href=index.php?Module=Inscription&action=0>S'inscrire en cliquant
 				ici </a>
 		</div>
-		';
+		
 
 	</div>
 </div>

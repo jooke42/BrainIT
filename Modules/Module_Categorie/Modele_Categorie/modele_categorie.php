@@ -19,7 +19,7 @@ class ModeleCategorie extends DBMapper{
 	}
 	
 	function searchArticle($query){
-		$req=self::$database->prepare("SELECT *
+		$req=self::$database->prepare("SELECT idarticle , c.libelle as categorie
 	FROM article a
 	JOIN categorie c
 	ON a.idcategorie = c.idcategorie
@@ -29,7 +29,7 @@ class ModeleCategorie extends DBMapper{
 		$resultat=$req->fetchall();
 		$listeArticle=array();
 		foreach ($resultat as $article){
-			array_push($listeArticle, new ModeleArticle($article['idArticle']));
+			array_push($listeArticle, array(article => new ModeleArticle($article['idArticle']),Categorie=>$article['categorie']));
 		}
 	
 		return $listeArticle;
