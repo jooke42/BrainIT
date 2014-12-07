@@ -12,13 +12,13 @@ class ModeleArticle extends DBMapper
 	protected $_id_categorie;
 	protected $_prix;
 	protected $_quantiteStock;
-
+	protected $_categorie;
 
 
     function __construct($id_article)
     {
         //ICI on récupère les informations de l'article
-        $requete = "SELECT DISTINCT * FROM Article WHERE idArticle = :id_article";
+        $requete = "SELECT DISTINCT * FROM Article join (select idcategorie,libelle as categorie from categorie) as categorie on article.idcategorie=categorie.idcategorie WHERE idArticle = :id_article";
         try {
             $reponse = self::$database->prepare($requete);
             $reponse->execute(
@@ -98,6 +98,8 @@ class ModeleArticle extends DBMapper
         'description' => $this->_description,
 	'id_categorie' => $this->_id_categorie,
         'prix' => $this->_prix,
-        'quantiteStock' => $this->_quantiteStock);
+        'quantiteStock' => $this->_quantiteStock,
+			'categorie' => $this->_categorie
+	);
 	}
 }

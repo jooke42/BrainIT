@@ -26,7 +26,7 @@ DBMapper::init ( $connexion );
 
 <link rel="stylesheet"
 	href="Assets/CSS/materialDesign/css/ripples.min.css">
-	<link rel="stylesheet"
+<link rel="stylesheet"
 	href="Assets/CSS/materialDesign/css/material-wfont.min.css">
 
 <link rel="stylesheet"
@@ -61,50 +61,60 @@ DBMapper::init ( $connexion );
 						class="dropdown-toggle" data-toggle="dropdown">Catégories <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Carte+mere">Carte mère</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Carte+graphique">Carte graphique</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Disque+dur">Disque dur</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Memoire+vive">Mémoire vive</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Processeur">Processeur</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Peripherique">Périphériques</a></li>
-							<li><a href="index.php?Module=Categorie&action=0&categorie=Souris">Souris</a></li>
-							<li><a href="index.php?Module=Categorie&action=0$categorie=Clavier">Clavier</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Carte+mere">Carte
+									mère</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Carte+graphique">Carte
+									graphique</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Disque+dur">Disque
+									dur</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Memoire+vive">Mémoire
+									vive</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Processeur">Processeur</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Peripherique">Périphériques</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0&categorie=Souris">Souris</a></li>
+							<li><a
+								href="index.php?Module=Categorie&action=0$categorie=Clavier">Clavier</a></li>
 						</ul></li>
 				</ul>
 				<form class="navbar-form navbar-left">
-					<input type="text" class="form-control col-lg-8"
+					<input name="search" id="search" type="text" class="form-control col-lg-8"
 						placeholder="Search">
 				</form>
 				<!-- *************************FIN*NAV DE GAUCHE*************************** -->
 
 				<!-- ***************************NAV DE DROITE***************************** -->
 				<ul class="nav navbar-nav navbar-right">
+					
+					<li><a id="navColor" href="javascript:void(0)">Panier</a></li>
+					<?php if (! isset ( $_SESSION ['Utilisateur'] )) {?>
 					<li>
                         <?php
-																								if (! isset ( $_SESSION ['Utilisateur'] )) {
+																								
 																									echo '<a id="navColor" href="index.php?Module=Connexion">Connexion</a>';
-																								}
-																								?>
-                       <!-- <a id="navColor" href="http://brain-it.olympe.in/index.php?Module=Inscription">Inscription</a>-->
-					</li>
-					<li><a id="navColor" href="javascript:void(0)">Panier</a></li>
+																								
+                       
+					?></li><?php }else{
+					
+					?>	
 					<li class="dropdown"><a id="navColor" href="javascript:void(0)"
-						class="dropdown-toggle" data-toggle="dropdown">Profil <b
+						class="dropdown-toggle" data-toggle="dropdown"><?php if (isset ( $_SESSION ['Utilisateur'] )){echo $_SESSION ['Utilisateur']['nom']." ".$_SESSION ['Utilisateur']['prenom']  ;}else echo "Profil";  ?> <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li id="navColor"><a href="javascript:void(0)">Profil</a></li>
-							<li id="navColor"><a href="javascript:void(0)">Modifier mot de
-									passe</a></li>
+							
 							<li class="divider">
-                                <?php
-																																// var_dump($_SESSION['Utilisateur']);
-																																if (isset ( $_SESSION ['Utilisateur'] )) {
-																																	echo '<li id="navColor"><a href="Assets/include/deconnexion.php">Deconnexion</a></li>';
-																																} else {
-																																	echo '<li id="navColor"><a href="index.php?Module=Connexion">Connexion</a></li>';
-																																}
-																																?>
-                            </li>
+                                
+																																
+							<li id="navColor"><a href="Assets/include/deconnexion.php">Deconnexion</a></li>
+																														
+                            </li><?php }?>
 						</ul></li>
 				</ul>
 			</div>
@@ -125,8 +135,8 @@ DBMapper::init ( $connexion );
 													$module = $_GET ['Module'];
 													include ('Modules/Module_' . $module . '/' . $module . '.php');
 													$monModule = new $module ();
-												}else{
-													$module="HomePage";
+												} else {
+													$module = "HomePage";
 													include ('Modules/Module_' . $module . '/' . $module . '.php');
 													$monModule = new $module ();
 												}
@@ -134,7 +144,7 @@ DBMapper::init ( $connexion );
 												?>
 			
 	</div>
-	
+
 </body>
 
 <!-- *************************************************************************************END*BODY************************************************************************************ -->
@@ -151,11 +161,19 @@ DBMapper::init ( $connexion );
 
 
 <script src="Assets/CSS/materialDesign/js/ripples.min.js"></script>
-        <script src="Assets/CSS/materialDesign/js/material.min.js"></script>
-         <script>
+<script src="Assets/CSS/materialDesign/js/material.min.js"></script>
+<script>
             $(document).ready(function() {
                 $.material.init();
             });
+            $("search").keypress(function(event) {
+                if (event.which == 13) {
+                    event.preventDefault();
+                    $("form").submit();
+                }
+            });
         </script>
+
+
 </html>
 <?php ?>

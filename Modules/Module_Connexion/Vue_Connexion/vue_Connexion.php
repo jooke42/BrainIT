@@ -16,14 +16,14 @@ class VueConnexion {
 
 				<div class="col-lg-12">
 
-					<input type="email" class="form-control" id="inputEmail"
+					<input name="email" type="email" class="form-control" id="inputEmail"
 						placeholder="Email">
 				</div>
 			</div>
 			<div class="form-group">
 			<label for="inputPassword" class="col-lg-3 control-label">Password</label>
 			<div class="col-lg-12">
-				<input type="password" class="form-control" id="inputPassword"
+				<input name="pass" type="password" class="form-control" id="inputPassword"
 					placeholder="Password">
 
 			</div>
