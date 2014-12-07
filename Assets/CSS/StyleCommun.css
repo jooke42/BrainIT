@@ -1,9 +1,8 @@
+
 .navbar{
 	background-color:#2196F3;
-    position:fixed;
-    width:100%;
-    z-index: 1;
-    border-radius:0px;
+  
+ 
 }
 
 
@@ -26,7 +25,7 @@
     color:black;
     z-index: 2;
 }
-
+/*
 .connexion{
     text-align:center;
 }
@@ -62,7 +61,10 @@ footer{
     z-index: 1;
     color:white;
 }
+*/
 #articleVitrine{
 margin-top:12px;	
 	
+
 }
+
