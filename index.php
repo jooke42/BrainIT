@@ -35,7 +35,7 @@ DBMapper::init ( $connexion );
 <link rel="stylesheet" href="Assets/CSS/StyleCommun.css">
 
 
-<script src="script.js"></script>
+
 <style>
 </style>
 </head>
@@ -83,39 +83,40 @@ DBMapper::init ( $connexion );
 								href="index.php?Module=Categorie&action=0$categorie=Clavier">Clavier</a></li>
 						</ul></li>
 				</ul>
-				<form class="navbar-form navbar-left">
-					<input name="search" id="search" type="text" class="form-control col-lg-8"
-						placeholder="Search">
+				<form class="navbar-form navbar-left" action="index.php"
+					method="GET">
+					<input name="query" id="search" type="text"
+						class="form-control col-lg-8" placeholder="Search"> <input
+						type="hidden" name="Module" value="categorie"> <input
+						type="hidden" name="action" value="1">
 				</form>
 				<!-- *************************FIN*NAV DE GAUCHE*************************** -->
 
 				<!-- ***************************NAV DE DROITE***************************** -->
 				<ul class="nav navbar-nav navbar-right">
-					
+
 					<li><a id="navColor" href="javascript:void(0)">Panier</a></li>
 					<?php if (! isset ( $_SESSION ['Utilisateur'] )) {?>
 					<li>
                         <?php
-																								
-																									echo '<a id="navColor" href="index.php?Module=Connexion">Connexion</a>';
-																								
-                       
-					?></li><?php }else{
-					
-					?>	
+						
+						echo '<a id="navColor" href="index.php?Module=Connexion">Connexion</a>';
+						
+						?></li><?php
+					} else {
+						
+						?>	
 					<li class="dropdown"><a id="navColor" href="javascript:void(0)"
 						class="dropdown-toggle" data-toggle="dropdown"><?php if (isset ( $_SESSION ['Utilisateur'] )){echo $_SESSION ['Utilisateur']['nom']." ".$_SESSION ['Utilisateur']['prenom']  ;}else echo "Profil";  ?> <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li id="navColor"><a href="javascript:void(0)">Profil</a></li>
-							
+
 							<li class="divider">
-                                
-																																
-							<li id="navColor"><a href="Assets/include/deconnexion.php">Deconnexion</a></li>
-																														
-                            </li><?php }?>
-						</ul></li>
+							
+							<li id="navColor"><a href="Assets/include/deconnexion.php">Deconnexion</a></li></li><?php }?>
+						</ul>
+				</li>
 				</ul>
 			</div>
 		</div>
@@ -153,7 +154,7 @@ DBMapper::init ( $connexion );
 
 <!-- ***********************************************************************************END*FOOTER*********************************************************************************** -->
 
-<script type="text/javascript"></script>
+
 <script
 	src="Assets/CSS/bootstrap-3.3.1-dist/dist/js/jquery-1.11.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -172,6 +173,11 @@ DBMapper::init ( $connexion );
                     $("form").submit();
                 }
             });
+           
+
+       
+
+          
         </script>
 
 

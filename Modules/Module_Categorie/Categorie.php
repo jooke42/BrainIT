@@ -27,12 +27,19 @@ class Categorie extends Module {
 		switch($action) {
 			case 0:
 				$order=isset($_GET['order'])?$_GET['order'] :'libelle';
-				$categorie=isset($_GET['categorie'])?$_GET['categorie'] :'Clavier';
+				$categorie=isset($_GET['categorie'])?$_GET['categorie'] :null;
+				
 				$listeArticle=$modele->getListeArticle($categorie,$order);
 				$monControleur->afficherArticle($listeArticle);
 				break;
 
+			case 1:
+					$query=isset($_GET['query'])?$_GET['query'] :null;
 					
+					$listeArticle=$modele->searchArticle($query);
+					$monControleur->afficherArticle($listeArticle);
+				break;
+				
 
 			default:
 				echo "default";
