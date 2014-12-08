@@ -70,10 +70,10 @@ class Panier extends Module {
                 $monControleur->supprimerArticlePanier($idArticle);
                 break;
 
-            /*case 4:
+            case 4:
 
                 $this->controleurPanier->calculPrixTotalPanier();
-                break;*/
+                break;
 
             default:
 
