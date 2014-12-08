@@ -16,28 +16,15 @@ class ControleurPanier {
         $this->monModele=new $nomModele();
         $this->maVue=new $nomVue();
     }
-
-    /*function afficherPanier() {
+    function afficherPanier() {
         $req=$this->monModele->afficherPanierReq();
         $this->maVue->afficherPanier($req);
-    }*/
+    }
 
-    function ajoutPanier($idArticle, $quantite) {
+    function ajoutPanier($idArticle,$quantite) {
         $this->monModele->ajoutPanier($idArticle,$quantite);
     }
 
-	function modifierArticlePanier($idArticle, $quantite) {
-		$this->monModele->modifierArticlePanier($idArticle,$quantite);
-	}
-
-	function supprimerArticlePanier($idArticle) {
-		$this->monModele->supprimerArticlePanier($idArticle);
-	}
-
-	function afficherPanier() {
-		$req=$this->monModele->afficherPanier();
-		$this->maVue->afficherPanier($req);
-	}
 
 }
 

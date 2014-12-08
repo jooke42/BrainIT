@@ -8,12 +8,7 @@
 class VuePanier {
 
     function afficherPanier($req){
-		echo "<strong>Panier du client : </strong>" . $_SESSION['idClient'];
-		echo "<br /><br />";
-		while($resultat = $req->fetch()) {
-			echo $resultat['idArticle'] . $resultat['libelle'];
-			echo '<br />';
-		}
+
     }
 }
 ?>

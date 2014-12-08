@@ -87,7 +87,7 @@ DBMapper::init ( $connexion );
 					method="GET">
 					<input name="query" id="search" type="text"
 						class="form-control col-lg-8" placeholder="Search"> <input
-						type="hidden" name="Module" value="categorie"> <input
+						type="hidden" name="Module" value="Categorie"> <input
 						type="hidden" name="action" value="1">
 				</form>
 				<!-- *************************FIN*NAV DE GAUCHE*************************** -->
@@ -95,7 +95,7 @@ DBMapper::init ( $connexion );
 				<!-- ***************************NAV DE DROITE***************************** -->
 				<ul class="nav navbar-nav navbar-right">
 
-					<li><a id="navColor" href="javascript:void(0)">Panier</a></li>
+					<li><a id="navColor" href="index.php?Module=Panier&action=0">Panier</a></li>
 					<?php if (! isset ( $_SESSION ['Utilisateur'] )) {?>
 					<li>
                         <?php
@@ -110,7 +110,7 @@ DBMapper::init ( $connexion );
 						class="dropdown-toggle" data-toggle="dropdown"><?php if (isset ( $_SESSION ['Utilisateur'] )){echo $_SESSION ['Utilisateur']['nom']." ".$_SESSION ['Utilisateur']['prenom']  ;}else echo "Profil";  ?> <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li id="navColor"><a href="javascript:void(0)">Profil</a></li>
+							<li id="navColor"><a href="index.php?Module=Profil">Profil</a></li>
 
 							<li class="divider">
 							
