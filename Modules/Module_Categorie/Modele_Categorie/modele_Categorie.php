@@ -44,4 +44,5 @@ class ModeleCategorie extends DBMapper{
 	
 		return $listeArticle;
 	}
+
 }
