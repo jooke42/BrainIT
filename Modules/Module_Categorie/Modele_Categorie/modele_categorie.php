@@ -27,7 +27,7 @@ class ModeleCategorie extends DBMapper{
 			<div id="close" class="alert alert-dismissable alert-warning">
     <button type="button"  class="close" data-dismiss="alert">×</button>
     <h4>Attention</h4>
-    <p>La recherche que vous avez effectué ne contient pas assez de caractère, les resultats ne seront peut être pas pertinent.</p>
+    <p>La recherche que vous avez effectué ne contient pas assez de caractère , les resultats ne seront peut être pas pertinent.</p>
 </div>
 			
 			
@@ -41,7 +41,8 @@ class ModeleCategorie extends DBMapper{
 		foreach ($resultat as $article){
 			array_push($listeArticle, new ModeleArticle($article['idArticle']));
 		}
-		
+	
 		return $listeArticle;
 	}
+
 }

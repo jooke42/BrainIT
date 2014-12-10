@@ -16,7 +16,7 @@ class ModelePanier extends DBMapper {
     function ajoutPanier($idArticle,$quantite) {
         $idClient=$_SESSION['idClient'];
         var_dump($idClient,$idArticle,$quantite);
-        $req=self::$database->prepare("insert into Panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");
+        $req=self::$database->prepare("insert into panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");
         $req->execute();
 
 
