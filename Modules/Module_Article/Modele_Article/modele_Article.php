@@ -15,8 +15,8 @@ class ModeleArticle extends DBMapper
     protected $_idCategorie;
     protected $_prix;
     protected $_quantiteStock;
-    protected $_actif;
-    protected $_categorie; // Alexandre
+    protected $_etat;
+    protected $_nomCategorie;
 
     /** Constructeur d'article
      *
@@ -31,7 +31,7 @@ class ModeleArticle extends DBMapper
                 'idArticle' => $idArticle
         );
         // On met [0] car la fonction nous retourne une liste de tuples, or, ici on en a juste un seul tuple car idArticle UNIQUE
-        $donneesArticle = self::requeteFromBD ( "SELECT DISTINCT * FROM article join (select idcategorie,libelle as categorie from categorie) as categorie on article.idcategorie=categorie.idcategorie WHERE idArticle = :idArticle", $donnees )[ 0 ];
+        $donneesArticle = self::requeteFromBD ( "SELECT DISTINCT * FROM article join (select idCategorie,libelle  as nomCategorie from categorie) as categorie on article.idcategorie=categorie.idcategorie WHERE idArticle = :idArticle", $donnees )[ 0 ];
         if ( $donneesArticle == NULL ) {
             throw new Exception( "L'identifiant d'article :" . $idArticle . " n'existe pas." );
         }
@@ -43,7 +43,8 @@ class ModeleArticle extends DBMapper
         $this->_idCategorie   = $donneesArticle[ 'idCategorie' ];
         $this->_prix          = $donneesArticle[ 'prix' ];
         $this->_quantiteStock = $donneesArticle[ 'quantiteStock' ];
-        $this->_actif         = $donneesArticle[ 'actif' ];
+        $this->_etat         = $donneesArticle[ 'etat' ];
+	$this->_nomCategorie  = $donneesArticle[ 'nomCategorie' ];
     }
 
     /**     Cette méthode permet d'envoyer des requetes sur la BD
@@ -85,13 +86,13 @@ class ModeleArticle extends DBMapper
      *
      * @throws Exception
      *
-     * @param array (reference;libelle;marque;description;idCategorie;prix;quantiteStock;actif)
+     * @param array (reference;libelle;marque;description;idCategorie;prix;quantiteStock;etat)
      */
     static function createArticle ( $donneesArticle )
     {
         self::verifierContenuTableau ( $donneesArticle );
         //ICI on créer l'article dans la base de donnée
-        self::requeteFromBD ( "INSERT INTO article (reference, libelle, marque, description, idCategorie, prix, quantiteStock, actif) VALUES(:reference, :libelle, :marque, :description, :idCategorie, :prix, :quantiteStock, :actif)", $donneesArticle );
+        self::requeteFromBD ( "INSERT INTO article (reference, libelle, marque, description, idCategorie, prix, quantiteStock, etat) VALUES(:reference, :libelle, :marque, :description, :idCategorie, :prix, :quantiteStock, :etat)", $donneesArticle );
     }
 
     /** Verifie l'existances de variables puis vérifier le type
@@ -157,20 +158,15 @@ class ModeleArticle extends DBMapper
                 throw new Exception( "quantiteStock négatif" );
             }
         }
-        if ( !isset( $donneesArticle[ 'actif' ] ) ) {
-            $donneesArticle[ 'actif' ] = FALSE;
+        if ( !isset( $donneesArticle[ 'etat' ] ) ) {
+            $donneesArticle[ 'etat' ] = FALSE;
         } else {
-            if ( !is_bool ( $donneesArticle[ 'actif' ] ) ) {
-                throw new Exception ( " La valeur pour actif est incorrecte" );
+            if ( !is_bool ( $donneesArticle[ 'etat' ] ) ) {
+                throw new Exception ( " La valeur pour etat est incorrecte" );
             }
         }
     }
 
-    /* /** Modifie l'ensemble des valeurs de l'article
-     * il les modifie dans la BD puis dans le php
-     * @param $donneesArticle
-     * @throws Exception
-     */
     /** Retourne les id articles des produits qui correspondent aux conditions
      *
      * @param $conditions           :
@@ -191,8 +187,8 @@ class ModeleArticle extends DBMapper
                 'idCategorie'   => NULL,
                 'prix'          => NULL,
                 'quantiteStock' => NULL,
-                'categorie'     => NULL,
-                'actif'         => NULL
+                'nomCategorie'     => NULL,
+                'etat'         => NULL
         );
         $conditions     = array_intersect_key ( $conditions, $elementArticle );
         if ( count ( $conditions ) > 0 ) {
@@ -242,7 +238,7 @@ class ModeleArticle extends DBMapper
             // Le controleur est censé verifié les valeurs avant
             // Donc ici on suppose que les valeurs sont valides
             //ICI on modifie l'ensemble des valeurs de l'article dans la base de donnée
-            self::requeteFromBD ( "UPDATE article SET reference = :reference, libelle = :libelle, marque = :marque, description = :description, idCategorie = :idCategorie, prix = :prix, quantiteStock = :quantiteStock, actif = :actif WHERE idArticle = :idArticle", $donneesArticle );
+            self::requeteFromBD ( "UPDATE article SET reference = :reference, libelle = :libelle, marque = :marque, description = :description, idCategorie = :idCategorie, prix = :prix, quantiteStock = :quantiteStock, etat = :etat WHERE idArticle = :idArticle", $donneesArticle );
             // On met à jour l'objet
             $this->_reference     = $donneesArticle[ 'reference' ];
             $this->_libelle       = $donneesArticle[ 'libelle' ];
@@ -251,7 +247,7 @@ class ModeleArticle extends DBMapper
             $this->_idCategorie   = $donneesArticle[ 'idCategorie' ];
             $this->_prix          = $donneesArticle[ 'prix' ];
             $this->_quantiteStock = $donneesArticle[ 'quantiteStock' ];
-            $this->_actif         = $donneesArticle[ 'actif' ];
+            $this->_etat         = $donneesArticle[ 'etat' ];
 
             return TRUE;
         } catch ( Exception $e ) {
@@ -292,8 +288,8 @@ class ModeleArticle extends DBMapper
                 'idCategorie'   => $this->_idCategorie,
                 'prix'          => $this->_prix,
                 'quantiteStock' => $this->_quantiteStock,
-                'categorie'     => $this->_categorie,
-                'actif'         => $this->_actif
+                'nomCategorie'     => $this->_nomCategorie,
+                'etat'         => $this->_etat
         );
     }
 
@@ -318,30 +314,30 @@ class ModeleArticle extends DBMapper
     }
 
     /** Active l'article
-     * Met la variable actif à vrai
+     * Met la variable etat à vrai
      * @throws Exception
      */
     function activerArticle ()
     {
         // On fait toujours la requete sql avant de modifier l'objet car si il y a un bug,
         // si par exemple la requete ne fonctionne pas, la valeur ne sera pas modifier dans l'objet php (dans le cas ou ça lance une Exception)
-        self::requeteFromBD ( "UPDATE article SET actif = :actif WHERE idArticle= :idArticle", array (
-                'actif'     => TRUE,
+        self::requeteFromBD ( "UPDATE article SET etat = :etat WHERE idArticle= :idArticle", array (
+                'etat'     => TRUE,
                 'idArticle' => $this->_idArticle
         ) );
-        $this->_actif = TRUE;
+        $this->_etat = TRUE;
     }
 
     /** Desactive l'article
-     * Met la variable actif à faux
+     * Met la variable etat à faux
      * @throws Exception
      */
     function desactiverArticle ()
     {
-        self::requeteFromBD ( "UPDATE article SET actif = :actif WHERE idArticle= :idArticle", array (
-                'actif'     => FALSE,
+        self::requeteFromBD ( "UPDATE article SET etat = :etat WHERE idArticle= :idArticle", array (
+                'etat'     => FALSE,
                 'idArticle' => $this->_idArticle
         ) );
-        $this->_actif = FALSE;
+        $this->_etat = FALSE;
     }
 }
