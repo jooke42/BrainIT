@@ -1,0 +1,45 @@
+<?php
+
+class ControleurPhoto {
+	public $maVue;
+	public $monModele;
+	function __construct($module) {
+
+		$nomVue='Vue'.$module;
+		$nomModele='Modele'.$module;
+
+		$this->monModele=new $nomModele();		
+		$this->maVue=new $nomVue();	
+
+	}
+	function affichageFormPhoto() {
+		$this->maVue->affichageFormPhoto();
+	}
+	function uploadPhoto($idArticle,$index,$destination,$maxsize,$extensions) {
+		
+		$idPhoto=$this->monModele->uploadPhoto($idArticle,$index,$destination,$maxsize,$extensions);
+        return $idPhoto;
+	}
+
+	function affichagePhotoReq() {
+		$req=$this->monModele->affichagePhotoReq();
+		return $req;
+	}
+	function affichagePhotoArticleReq() {
+		$req=$this->monModele->affichagePhotoArticleReq();
+		return $req;
+	}
+
+	
+	function affichagePhotoArticle($req) {
+		$this->maVue->affichagePhotoArticle($req);
+	}
+	function affichagePhotoArticleComplet() {
+   		$req=$this->affichagePhotoArticleReq();
+		$this->affichagePhotoProfil($req);
+	}
+	
+
+}
+
+?>
