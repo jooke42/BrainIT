@@ -21,9 +21,13 @@ class VueCategorie{
 			<tr>
             <th><?php echo $article['reference'] ;?></th>
             <th><?php echo  $article['libelle'];?></th>
-            <th><?php if (strlen($article['description']) > 100)
+            <th><?php if (strlen($article['description']) > 100){
    			$str = substr($article['description'], 0, 100) . '...';
-            echo $str ;?></th>
+   			echo $str;
+            }else{
+            	echo $article['description'];
+            }
+             ?></th>
             <th><?php echo $article['quantiteStock'];?></th>
             <th><?php echo  $article['prix']."€";?></th>
         </tr>
