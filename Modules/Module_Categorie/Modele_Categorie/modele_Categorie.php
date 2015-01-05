@@ -25,9 +25,9 @@ class ModeleCategorie extends DBMapper{
 			?> 
 			
 			<div id="close" class="alert alert-dismissable alert-warning">
-    <button type="button"  class="close" data-dismiss="alert">×</button>
+    <button type="button"  class="close" data-dismiss="alert">Ã—</button>
     <h4>Attention</h4>
-    <p>La recherche que vous avez effectué ne contient pas assez de caractère , les resultats ne seront peut être pas pertinent.</p>
+    <p>La recherche que vous avez effectuÃ© ne contient pas assez de caractÄre , les resultats ne seront peut Ä™tre pas pertinent.</p>
 </div>
 			
 			
