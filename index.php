@@ -58,12 +58,12 @@ DBMapper::init ( $connexion );
 				<ul class="nav navbar-nav">
 					<li class="active"><a id="navColor" href="javascript:void(0)">Accueil</a></li>
 					<li class="dropdown"><a id="navColor" href="javascript:void(0)"
-						class="dropdown-toggle" data-toggle="dropdown">Catégories <b
+						class="dropdown-toggle" data-toggle="dropdown">CatÃ©gories <b
 							class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Carte+mere">Carte
-									mère</a></li>
+									mÃ©re</a></li>
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Carte+graphique">Carte
 									graphique</a></li>
@@ -71,12 +71,12 @@ DBMapper::init ( $connexion );
 								href="index.php?Module=Categorie&action=0&categorie=Disque+dur">Disque
 									dur</a></li>
 							<li><a
-								href="index.php?Module=Categorie&action=0&categorie=Memoire+vive">Mémoire
+								href="index.php?Module=Categorie&action=0&categorie=Memoire+vive">MÃ©moire
 									vive</a></li>
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Processeur">Processeur</a></li>
 							<li><a
-								href="index.php?Module=Categorie&action=0&categorie=Peripherique">Périphériques</a></li>
+								href="index.php?Module=Categorie&action=0&categorie=Peripherique">PÃ©riphÃ©riques</a></li>
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Souris">Souris</a></li>
 							<li><a
@@ -145,7 +145,9 @@ DBMapper::init ( $connexion );
 												?>
 			
 	</div>
-
+<footer>
+	<a href="index.php?Module=ConnexionAdmin">admin</a>
+</footer>
 </body>
 
 <!-- *************************************************************************************END*BODY************************************************************************************ -->

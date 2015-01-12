@@ -10,8 +10,8 @@ class VueCategorie{
             <th>reference</th>
             <th>libelle</th>
             <th>description</th>
-            <th>quantit� en stock</th>
-            <th>prix � l'unit�</th>
+            <th>quantité en stock</th>
+            <th>prix à l'unité</th>
         </tr>
     	</thead>
     	<tbody><?php
