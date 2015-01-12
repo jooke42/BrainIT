@@ -10,8 +10,8 @@ class VueCategorie{
             <th>reference</th>
             <th>libelle</th>
             <th>description</th>
-            <th>quantité en stock</th>
-            <th>prix à l'unité</th>
+            <th>quantitï¿½ en stock</th>
+            <th>prix ï¿½ l'unitï¿½</th>
         </tr>
     	</thead>
     	<tbody><?php
@@ -20,7 +20,7 @@ class VueCategorie{
 			?>
 			<tr>
             <th><?php echo $article['reference'] ;?></th>
-            <th><?php echo  $article['libelle'];?></th>
+            <th><a href="index.php?Module=Article&idArticle=<?php echo $article['idArticle'] ?>"><?php echo  $article['libelle'];?></a></th>
             <th><?php if (strlen($article['description']) > 100){
    			$str = substr($article['description'], 0, 100) . '...';
    			echo $str;
@@ -29,7 +29,7 @@ class VueCategorie{
             }
              ?></th>
             <th><?php echo $article['quantiteStock'];?></th>
-            <th><?php echo  $article['prix']."€";?></th>
+            <th><?php echo  $article['prix']."ï¿½";?></th>
         </tr>
 			
 			

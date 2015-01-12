@@ -27,7 +27,8 @@ class ModelePhoto extends DBMapper {
 			$req->execute();
 			
             $idPhoto=self::$database->lastInsertId();
-
+			
+			echo '<img src="'.$destination.'" />';
             return $idPhoto;
 			
 			header ("Refresh: 0;URL=index.php?Module=Profil");
