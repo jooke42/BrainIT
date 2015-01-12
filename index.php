@@ -67,6 +67,7 @@ DBMapper::init ( $connexion );
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Carte+graphique">Carte
 									graphique</a></li>
+
 							<li><a
 								href="index.php?Module=Categorie&action=0&categorie=Disque+dur">Disque
 									dur</a></li>

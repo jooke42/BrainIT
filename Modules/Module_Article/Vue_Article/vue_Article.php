@@ -4,7 +4,8 @@ class VueArticle{
 
 	function affichagePageProduit($produit) {
 	
-		echo '<h1>'.$produit['libelle'].'</h1></br>';
+		echo '<h1>'.$produit['libelle'].'</h1>';
+			echo '<input type="button" onclick="document.location.href=\'index.php?Module=Panier&action=1&idArticle='.$produit['idArticle'].'\'" value="Ajouter au panier"></br>';
 		echo 'prix :'.$produit['prix'].'</br>';
 		echo 'description :'.$produit['description'].'</br>';
 			/*	'id_article' => $this->_id_article,

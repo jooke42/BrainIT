@@ -48,7 +48,9 @@ class ModelePanier extends DBMapper {
 
 		$idClient = $_SESSION['idClient'];
         $req = self::$database->prepare("delete from panier where idArticle='$idArticle'");
-        $req->execute();
+
+		$req->execute();
+		header("Refresh:0;URL='index.php?Module=Panier'");
 
 	}
 
@@ -58,6 +60,22 @@ class ModelePanier extends DBMapper {
         $req = self::$database->prepare("select * from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
         $req->execute();
 		
+		return $req;
+
+	}
+	function ConfirmerPanier() {
+
+		$Paiement =curl_init();
+		curl_setopt($Paiement,CURLOPT_URL,"localhost/BraintIT");
+		curl_setopt($Paiement,CURLOPT_HEADER,0);
+		$resultat=curl_exec($Paiement);
+		var_dump($resultat);
+		curl_close($Paiement);
+
+		/*$idClient = $_SESSION['idClient'];
+		$req = self::$database->prepare("select * from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
+		$req->execute();*/
+
 		return $req;
 
 	}
