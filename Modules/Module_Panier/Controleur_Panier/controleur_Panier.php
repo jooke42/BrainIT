@@ -36,6 +36,10 @@ class ControleurPanier {
 		$req=$this->monModele->afficherPanier();
 		$this->maVue->afficherPanier($req);
 	}
+	function confirmerPanier($idPanier) {
+		$req=$this->monModele->afficherPanier();
+		$this->monModele->afficherPanier($req);
+	}
 
 }
 

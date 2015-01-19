@@ -19,7 +19,7 @@ class VuePanier {
 			echo '<br />';
 		}
 
-		if(isset($_SESSION['idAdmin'])) {
+
 
 		echo '<form action="index.php?Module=Panier&action=1&idArticle=2&quantite=5" method="get" enctype="multipart/form-data">';
 			echo '<button type="submit">Ajouter article</button>';
@@ -33,7 +33,11 @@ class VuePanier {
 			echo "<button type='submit' value=''>Supprimer article</button>";
 		echo "</form>";
 
-		}
+		echo "<form action='index.php?Module=Panier&action=3&idArticle=2' method='get'>";
+		echo "<button type='submit' value=''>Confirmer Panier</button>";
+		echo "</form>";
+
+
 
     }
 }

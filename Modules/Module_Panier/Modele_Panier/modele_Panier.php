@@ -63,7 +63,7 @@ class ModelePanier extends DBMapper {
 		return $req;
 
 	}
-	function ConfirmerPanier() {
+	function ConfirmerPanier($idpanier,$idClient) {
 
 		$Paiement =curl_init();
 		curl_setopt($Paiement,CURLOPT_URL,"localhost/BraintIT");

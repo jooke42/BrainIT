@@ -21,7 +21,7 @@ class Panier extends Module {
         $module = get_class($this);
         $nomControleur = 'Controleur'.$module;
         $monControleur = new $nomControleur($module);
-
+        $idPanier=isset($_GET['idPanier'])?$_GET['idPanier']:null;
         if(!isset($action)) {
 
             if(isset($_GET['action'])) 
@@ -67,10 +67,10 @@ class Panier extends Module {
                 $monControleur->supprimerArticlePanier($idArticle);
                 break;
 
-            /*case 4:
+            case 4:
 
-                $this->controleurPanier->calculPrixTotalPanier();
-                break;*/
+                $this->controleurPanier->ConfirmerPanier($idPanier);
+                break;
 
             default:
 
