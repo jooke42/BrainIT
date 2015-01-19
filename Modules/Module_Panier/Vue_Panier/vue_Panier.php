@@ -7,38 +7,49 @@
  */
 class VuePanier {
 
-	function __construct() {}
-
-    function afficherPanier($req) {
+    function afficherPanier($req){
+		?><table class="table table-striped table-hover ">
+		<thead>
+		 <tr>
+            <th>Reference</th>
+            <th>Libelle</th>
+            <th>Description</th>
+            <th>Quantite en stock</th>
+            <th>Prix à l'unite</th>
+			<th>Actions</th>
+        </tr>
+    	</thead>
+    	<tbody><?php
 		
-		echo "<strong>Panier du client : </strong>" . $_SESSION['idClient'];
-		echo "<br /><br />";
-
 		while($resultat = $req->fetch()) {
-			echo $resultat['idArticle'] . " : " . $resultat['libelle'];
-			echo '<br />';
+				?>
+			<tr>
+            <th><?php echo $resultat['reference'] ;?></th>
+            <th><a href="index.php?Module=Article&idArticle=<?php echo $resultat['idArticle']; ?>" ><?php echo  $resultat['libelle'];?></a></th>
+            <th><?php if (strlen($resultat['description']) > 100){
+   			$str = substr($resultat['description'], 0, 100) . '...';
+   			echo $str;
+            }else{
+            	echo $resultat['description'];
+            }
+             ?></th>
+            <th><?php echo $resultat['quantiteStock'];?></th>
+            <th><?php echo  $resultat['prix']."euros";?></th>
+			 <th><a href="index.php?Module=Panier&action=3&idArticle=<?php echo $resultat['idArticle']; ?>">Supprimer</a></th>
+				
+        </tr>
+			
+			
+			
+			<?php
+			
 		}
-
-
-
-		echo '<form action="index.php?Module=Panier&action=1&idArticle=2&quantite=5" method="get" enctype="multipart/form-data">';
-			echo '<button type="submit">Ajouter article</button>';
-		echo '</form>';
+		?>
+		</tbody>
+		</table>
 		
-		echo '<form action="index.php?Module=Panier&action=2&idArticle=2&quantite=10" method="get">';
-			echo "<button type='submit' value=''>Modifier article</button>";
-		echo '</form>';
-
-		echo "<form action='index.php?Module=Panier&action=3&idArticle=2' method='get'>";
-			echo "<button type='submit' value=''>Supprimer article</button>";
-		echo "</form>";
-
-		echo "<form action='index.php?Module=Panier&action=3&idArticle=2' method='get'>";
-		echo "<button type='submit' value=''>Confirmer Panier</button>";
-		echo "</form>";
-
-
-
+		<?php
+		}
     }
-}
+
 ?>
