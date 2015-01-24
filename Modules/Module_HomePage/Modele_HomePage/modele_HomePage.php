@@ -15,7 +15,6 @@ class ModeleHomePage extends DBMapper {
 			$req->execute();
 			$resultat=$req->fetchall();
 			
-			
 			foreach ($resultat as $article) {
 				array_push($this->_listeTopArticleParCategorie[$categorie['libelle']],new ModeleArticle($article['idArticle']));
 			}
