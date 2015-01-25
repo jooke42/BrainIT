@@ -16,16 +16,17 @@ class Article extends Module {
 
 
 
-        if(!isset($action)) {
+        
             if(isset($_GET['action'])) {
                 $action=$_GET['action'];
             }
             else {
-                $action=0;
+                $action=1;
             }
-        }
+            
+        
         switch($action) {
-            case 0:
+            case 1:
                 
                 $monControleur->affichagePageArticle();
 
@@ -43,6 +44,7 @@ class Article extends Module {
                 $monControleur->desactiverArticle();
              break;
              case "creerArticle":
+
                 $monControleur->creerArticle();
              break;
              case "modifierArticle":
@@ -52,6 +54,7 @@ class Article extends Module {
                 $monControleur->modifierArticleSelection();
              break;
              case "affichageCreerArticle":
+                echo"oklm";
                 $monControleur->AffichageCreerArticle();
              break;
              case "affichageModifierArticle":

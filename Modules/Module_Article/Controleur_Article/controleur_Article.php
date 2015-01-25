@@ -4,10 +4,7 @@ class ControleurArticle{
 	protected $maVue;
 	protected $monModele;
 	function __construct($module) {
-		if(htmlspecialchars($_GET['idArticle'])!=NULL) {
-            $idArticle=htmlspecialchars($_GET['idArticle']);
 
-        }
 
         //$idArticle=1;
 
@@ -15,8 +12,12 @@ class ControleurArticle{
 		$nomModele='Modele'.$module;
 	
 		$this->maVue=new $nomVue();	
-	
-		$this->monModele=new $nomModele($idArticle);	
+		if(isset($_GET['idArticle'])) {
+            $idArticle=htmlspecialchars($_GET['idArticle']);
+            $this->monModele=new $nomModele($idArticle);	
+
+        }
+		
 		
 		
 	} 
@@ -33,52 +34,49 @@ class ControleurArticle{
 	}
 	function creerArticle(){
         $article = array (
-                'idArticle'     => NULL,
-                'reference'     => htmlspecialchars($_GET['idArticle']),
+                'reference'     => htmlspecialchars($_GET['reference']),
                 'marque'        => htmlspecialchars($_GET['marque']),
                 'libelle'       => htmlspecialchars($_GET['libelle']),
                 'description'   => htmlspecialchars($_GET['description']),
                 'idCategorie'   => htmlspecialchars($_GET['idCategorie']),
                 'prix'          => htmlspecialchars($_GET['prix']),
                 'quantiteStock' => htmlspecialchars($_GET['quantiteStock']),
-                'actif'         => 1
+                'actif'         => FALSE
         );
-        createArticle($article);
+        ModeleArticle::createArticle($article);
 		$this->maVue->redirection();
 	}
      function modifierArticle(){
         $article = array (
-                'idArticle'     => NULL,
-                'reference'     => htmlspecialchars($_GET['idArticle']),
+                'idArticle'     => htmlspecialchars($_GET['idArticle']),
+                'reference'     => htmlspecialchars($_GET['reference']),
                 'marque'        => htmlspecialchars($_GET['marque']),
                 'libelle'       => htmlspecialchars($_GET['libelle']),
                 'description'   => htmlspecialchars($_GET['description']),
                 'idCategorie'   => htmlspecialchars($_GET['idCategorie']),
                 'prix'          => htmlspecialchars($_GET['prix']),
-                'quantiteStock' => htmlspecialchars($_GET['quantiteStock'])
+                'quantiteStock' => htmlspecialchars($_GET['quantiteStock']),
+                'actif'         => TRUE
         );
         $this->monModele->modifierArticle($article);
 		$this->maVue->redirection();
      }
      function modifierArticleSelection(){
-		$this->maVue->modifierArticleSelection();
+		$this->maVue->AffichagemodifierArticleSelection();
      }
      function AffichageCreerArticle(){
-		$this->maVue->affichageCreerProduit();
+		$this->maVue->AffichageCreerArticle();
 	}
      function affichageModifierArticle(){
 		$information =$this->monModele->getArticle();
-		$this->maVue->affichageModifierProduit($information);
+		$this->maVue->AffichageModifierArticle($information,htmlspecialchars($_GET['idArticle']));
      }
 	function affichagePageArticle() {
 	
 		$information =$this->monModele->getArticle();
 		$this->maVue->affichagePageProduit($information);
 	}	
-	function connexion($email,$pass) {
-		$this->monModele->connexion($email,$pass);
-		
-	}
+
 }
 
 ?>
