@@ -31,7 +31,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="Assets/images/home/logo.png" alt="" /></a>
+							<a href="index.php"><img src="Assets/images/home/logo.png" alt="" /></a>
 						</div>
 						<!--<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -63,8 +63,8 @@
 								<li><a href="#"><i class="fa fa-user"></i> Compte</a></li>
 								<!--<li><a href="#"><i class="fa fa-star"></i> Liste de souhait</a></li>-->
 								<!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Panier</a></li>
-								<li><a href="login.html"><i class="fa fa-lock"></i> Connexion</a></li>
+								<li><a href="index.php?Module=Panier"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+								<li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>
 							</ul>
 						</div>
 					</div>
@@ -86,7 +86,7 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html">Accueil</a></li> <!-- class="active" -->
+								<li><a href="index.php">Accueil</a></li> <!-- class="active" -->
 								<!--<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
 										<li><a href="cart.html">Cart</a></li> 

@@ -4,14 +4,15 @@ class VueCategorie{
 		
 	}
 	function afficherArticle($listeArticle){
+
 		?><table class="table table-striped table-hover ">
 		<thead>
 		 <tr>
             <th>reference</th>
             <th>libelle</th>
             <th>description</th>
-            <th>quantité en stock</th>
-            <th>prix à l'unité</th>
+            <th>quantitï¿½ en stock</th>
+            <th>prix ï¿½ l'unitï¿½</th>
         </tr>
     	</thead>
     	<tbody><?php
@@ -29,7 +30,7 @@ class VueCategorie{
             }
              ?></th>
             <th><?php echo $article['quantiteStock'];?></th>
-            <th><?php echo  $article['prix']."€";?></th>
+            <th><?php echo  $article['prix']."ï¿½";?></th>
         </tr>
 			
 			

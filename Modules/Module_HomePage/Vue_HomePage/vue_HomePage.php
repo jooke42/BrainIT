@@ -5,36 +5,49 @@ class VueHomePage {
 	}
 	function afficherHomePage($listeTopArticle){
 		$this->afficherCarousel();
-		?><div class="col-sm-9 padding-right">
+
+		?><div class="col-sm-12 padding-right">
 		<div class="features_items">
 			<h2 class="title text-center">Nouveaux articles</h2><?php
 
-		$compteur=0;
+
 
 		foreach ($listeTopArticle as $categorie => $ListeArticle) {
-			/*if ($compteur%3==0 && $compteur!=0){
-				echo '</div>';
-			}
-			if ($compteur%3==0){
-				echo '<div class="row">';
-			}*/
-			?> <div class="col-sm-4">
-						<?php foreach ($ListeArticle as $article ){
-							?><div class="well"><?php 
-							
-							
-							$article=$article->getArticle();
-							echo $article['libelle']."   ";
-							echo $article['quantiteStock']."  ";
-							echo $article['prix']."  ";
-							echo'<br>';
-							?></div><?php 
-						}?></div>
-						
+			foreach ($ListeArticle as $article ){
+				$article=$article->getArticle();?>
+
+			<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+										<div class="productinfo text-center">
+											<img src="Assets/images/home/no_photo.gif" alt="" />
+											<h2><?php$article['prix']."  €"?></h2>
+											<p><?php echo $article['libelle'];?></p>
+											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Ajouter au panier</a>
+										</div>
+										<div class="product-overlay">
+											<div class="overlay-content">
+												<h2><?php$article['prix']."  €"?></h2>
+												<p><?php echo $article['libelle'];?></p>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Ajouter au panier</a>
+											</div>
+										</div>
+								</div>
+								<div class="choose">
+									<ul class="nav nav-pills nav-justified">
+										<li><a href="index.php?Module=Article&idArticle=<?php echo $article['idArticle'] ?>"><i class="fa fa-plus-square"></i>Détail du produit</a></li>
+										<!--<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>-->
+									</ul>
+								</div>
+							</div>
 						</div>
-			</div><?php
+
+			<?php
+
+
+						}
 						
-						$compteur++;
+
 		}
 			
 		?></div>
