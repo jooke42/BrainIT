@@ -63,7 +63,7 @@
 								<li><a href="#"><i class="fa fa-user"></i> Compte</a></li>
 								<!--<li><a href="#"><i class="fa fa-star"></i> Liste de souhait</a></li>-->
 								<!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
-								<li><a href="index.php?Module=Panier"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+								<li><a href="index.php?Module=Panier&action=0"><i class="fa fa-shopping-cart"></i> Panier</a></li>
 								<li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>
 							</ul>
 						</div>
@@ -95,7 +95,7 @@
                                 </li>-->
 								<li><a href="shop.html">Produits</a></li>
 								<!--<li><a href="product-details.html">Détail des produits</a></li>-->
-								<li><a href="cart.html">Panier</a></li> 								
+								<li><a href="index.php?Module=Panier&action=0">Panier</a></li>
 								<!--<li><a href="checkout.html">Checkout</a></li>-->
 								<!--<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
