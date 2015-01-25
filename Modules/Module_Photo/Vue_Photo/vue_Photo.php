@@ -4,7 +4,7 @@ class VuePhoto {
 	
 	function affichageFormPhoto() {
 		echo '
-		<form method="post" action="index.php?Module=Photo&actionPhoto=1&idArticle=2" enctype="multipart/form-data">
+		<form method="post" action="index.php?Module=Photo&actionPhoto=1" enctype="multipart/form-data">
 			<p>Ajout d\'une photo</p>
 			<label for="mon_fichier">Fichier (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />

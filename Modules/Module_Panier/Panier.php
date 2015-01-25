@@ -18,31 +18,33 @@ class Panier extends Module {
     function __construct() {
 
 
-        $module=get_class($this);
-        $nomControleur='Controleur'.$module;
-        $monControleur=new $nomControleur($module);
+        $module = get_class($this);
+        $nomControleur = 'Controleur'.$module;
+        $monControleur = new $nomControleur($module);
 
         if(!isset($action)) {
-            if(isset($_GET['action'])) {
-                $action=$_GET['action'];
-            }
-            else {
-                $action=0;
-            }
-        }
-        if(isset($_GET['idArticle'])) {
-            $idArticle=$_GET['idArticle'];
-        }
-        else {
-            $article=NULL;
+
+            if(isset($_GET['action'])) 
+                $action = $_GET['action'];
+            
+            else 
+                $action = 0;
+            
         }
 
-        if(isset($_GET['quantite'])) {
-            $quantite=$_GET['quantite'];
-        }
-        else {
-            $quantite=1;
-        }
+        if(isset($_GET['idArticle'])) 
+            $idArticle = $_GET['idArticle'];
+        
+        else 
+            $article = NULL;
+        
+
+        if(isset($_GET['quantite'])) 
+            $quantite = $_GET['quantite'];
+        
+        else 
+            $quantite = 1;
+
         switch($action) {
 
             case 0:
@@ -52,28 +54,27 @@ class Panier extends Module {
 
             case 1:
 
-                $monControleur->ajoutPanier($idArticle,$quantite);
-
+                $monControleur->ajoutPanier($idArticle, $quantite);
                 break;
 
             case 2:
 
-                $this->controleurPanier->modifierArticlePanier();
+               	$monControleur->modifierArticlePanier($idArticle, $quantite);
                 break;
 
             case 3:
 
-                $this->controleurPanier->supprimerArticlePanier();
+                $monControleur->supprimerArticlePanier($idArticle);
                 break;
 
-            case 4:
+            /*case 4:
 
                 $this->controleurPanier->calculPrixTotalPanier();
-                break;
+                break;*/
 
             default:
 
-                $this->controleurPanier->afficherPanier();
+                $monControleur->afficherPanier();
                 break;
 
         }
