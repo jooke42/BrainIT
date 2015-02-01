@@ -28,7 +28,7 @@ class VuePanier {
                 <tr>
                     <th><?php echo $resultat['reference']; ?></th>
                     <th>
-                        <a href="index.php?Module=Article&idArticle=<?php echo $resultat['idArticle']; ?>"><?php echo $resultat['libelle']; ?></a>
+                        <a href="index.php?Module=Article&idArticle=<?php echo $resultat['idArticle'].'">'.$resultat['libelle']; ?></a>
                     </th>
                     <th><?php if (strlen($resultat['description']) > 100) {
                             $str = substr($resultat['description'], 0, 100) . '...';

@@ -14,10 +14,10 @@ class ModelePanier extends DBMapper {
     function ajoutPanier ($idArticle, $quantite) {
 
         $idClient = $_SESSION['idClient'];
-        $req_select = static::$database->prepare("select idArticle from panier where idArticle=$idArticle and idClient=$idClient");
-        $req_select->execute();
+        $reqSelect = static::$database->prepare("select idArticle from panier where idArticle=$idArticle and idClient=$idClient");
+        $reqSelect->execute();
 
-        if ($req_select->fetch()[0] == null) {
+        if ($reqSelect->fetch()[0] == null) {
 
             $req = static::$database->prepare("insert into panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");
             $req->execute();
@@ -42,7 +42,6 @@ class ModelePanier extends DBMapper {
 
     function supprimerArticlePanier ($idArticle) {
 
-        $idClient = $_SESSION['idClient'];
         $req = static::$database->prepare("delete from panier where idArticle='$idArticle'");
         $req->execute();
         header("Refresh: 0;URL='index.php?Module=Panier'");

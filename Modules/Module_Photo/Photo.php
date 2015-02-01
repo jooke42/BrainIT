@@ -1,9 +1,9 @@
 <?php
 
-if (!defined('TEST_INCLUDE'))
+if (!defined('TEST_INCLUDE')){
     throw new Exception ("Vous ne pouvez pas acceder directement à ce fichier");
 
-
+}
 class Photo extends Module {
 
     function __construct () {

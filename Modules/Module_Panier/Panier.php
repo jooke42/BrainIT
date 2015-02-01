@@ -17,27 +17,26 @@ class Panier extends Module {
 
         if (!isset($action)) {
 
-            if (isset($_GET['action']))
+            if (isset($_GET['action'])) {
                 $action = $_GET['action'];
-
-            else
+            } else {
                 $action = 0;
-
+            }
         }
 
-        if (isset($_GET['idArticle']))
+        if (isset($_GET['idArticle'])) {
             $idArticle = $_GET['idArticle'];
 
-        else
-            $article = NULL;
+        } else {
+            $idArticle = NULL;
+        }
 
-
-        if (isset($_GET['quantite']))
+        if (isset($_GET['quantite'])) {
             $quantite = $_GET['quantite'];
 
-        else
+        }else {
             $quantite = 1;
-
+        }
         switch ($action) {
             case 0:
                 $monControleur->afficherPanier();
@@ -51,10 +50,6 @@ class Panier extends Module {
             case 3:
                 $monControleur->supprimerArticlePanier($idArticle);
                 break;
-            /*case 4:
-
-                $this->controleurPanier->calculPrixTotalPanier();
-                break;*/
             default:
                 $monControleur->afficherPanier();
                 break;

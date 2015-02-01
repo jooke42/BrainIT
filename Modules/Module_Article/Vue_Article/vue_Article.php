@@ -13,7 +13,7 @@ class VueArticle {
     }
 
     function affichagePageActiverDesactiverArticle () {
-        echo '
+        ?>
 
 <form method="get" action="index.php">
    	<p>
@@ -29,7 +29,7 @@ class VueArticle {
 	   </p>
 	</form>
 
-		';
+		<?php
     }
 
     function redirection () {
@@ -37,7 +37,7 @@ class VueArticle {
     }
 
     function AffichageCreerArticle () {
-        echo '
+        ?>
 		<form method="get" action="index.php">
    		<p>
               <input type="hidden" value="creerArticle" name="action" />
@@ -60,11 +60,11 @@ class VueArticle {
     	   <input type="submit" value="Envoyer" />
 	   </p>
 	</form>
-            ';
+            <?php
     }
 
     function AffichageModifierArticle ($produit, $idArticle) {
-        echo '
+       ?>
 		<form method="get" action="index.php">
    		<p>
         <input type="hidden" value="modifierArticle" name="action" />
@@ -88,11 +88,11 @@ class VueArticle {
     	   <input type="submit" value="Envoyer" />
 	   </p>
 	</form>
-            ';
+            <?php
     }
 
     function AffichagemodifierArticleSelection () {
-        echo '
+       ?>
     <form method="get" action="index.php">
       <p>
                     <input type="hidden" value="affichageModifierArticle" name="action" />
@@ -103,8 +103,7 @@ class VueArticle {
          <input type="submit" value="Modifier" />
      </p>
   </form>
-            ';
-
+            <?php
     }
 
 }

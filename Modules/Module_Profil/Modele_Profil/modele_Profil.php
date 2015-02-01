@@ -8,7 +8,7 @@ class ModeleProfil extends DBMapper {
                 $idUser = $_SESSION['idUser'];
             }
             var_dump($metier);
-            $req = self::$database->prepare("UPDATE user set nom='$nom',prenom='$prenom', email='$email', genre=$genre, datNais=$datNais, telephone=$telephone, metier='$metier' where idUser=$idUser");
+            $req = static::$database->prepare("UPDATE user set nom='$nom',prenom='$prenom', email='$email', genre=$genre, datNais=$datNais, telephone=$telephone, metier='$metier' where idUser=$idUser");
             var_dump($req);
             $req->execute();
             $_SESSION['Utilisateur']["nom"] = $nom;
@@ -21,7 +21,7 @@ class ModeleProfil extends DBMapper {
         } else {
             echo "Mot de passe incorrect";
         }
-        //header ("Refresh: 0;URL=index.php?Module=Profil");;
+
     }
 
 }
