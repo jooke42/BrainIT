@@ -1,23 +1,26 @@
 <?php
 
 class ControleurInscription {
-	private $maVue;
-	private $monModele;
-	function __construct($module) {
+    private $maVue;
+    private $monModele;
 
-		$nomVue='Vue'.$module;
-		$nomModele='Modele'.$module;
+    function __construct ($module) {
 
-		$this->monModele=new $nomModele();		
-		$this->maVue=new $nomVue();
-	}
-	function affichageFormInscription() {
-		$this->maVue->affichageFormInscription();
-	}
-	function nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone) {
-		
-		$this->monModele->nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone);
-	} 
+        $nomVue = 'Vue' . $module;
+        $nomModele = 'Modele' . $module;
+
+        $this->monModele = new $nomModele();
+        $this->maVue = new $nomVue();
+    }
+
+    function affichageFormInscription () {
+        $this->maVue->affichageFormInscription();
+    }
+
+    function nouveauUser ($nom, $prenom, $genre, $pass, $passConf, $email, $datNais, $telephone) {
+
+        $this->monModele->nouveauUser($nom, $prenom, $genre, $pass, $passConf, $email, $datNais, $telephone);
+    }
 
 }
 

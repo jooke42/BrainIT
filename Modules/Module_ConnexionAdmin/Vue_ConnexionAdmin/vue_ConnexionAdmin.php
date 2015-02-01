@@ -1,11 +1,11 @@
 <?php
 
 class VueConnexionAdmin {
-	
-	function affichageFormConnexion() {
-	
-			if(!isset($_SESSION['Utilisateur'])) {
-				echo '<form class="connexion" name="input" action ="index.php?Module=ConnexionAdmin&action=1" method="post" enctype="multipart/form-data">
+
+    function affichageFormConnexion () {
+
+        if (!isset($_SESSION['Utilisateur'])) {
+            echo '<form class="connexion" name="input" action ="index.php?Module=ConnexionAdmin&action=1" method="post" enctype="multipart/form-data">
 					<label>Email : </label>
 					<br>
 			   		<input type="text" name="email" size="20" required  /> 
@@ -17,13 +17,12 @@ class VueConnexionAdmin {
 			   		<input name="Envoyer" value="Envoyer" type="submit">
 				</form><br>
 				<div class="connexion"><a href=index.php?Module=Inscription&action=0>S\'inscrire en cliquant ici </a></div>	';
-			}
-			else {
-				echo '<br>Vous êtes déjà  connecté<br>';
-			}
-		
-		
-	}	
+        } else {
+            echo '<br>Vous ï¿½tes dï¿½jï¿½ connectï¿½<br>';
+        }
+
+
+    }
 }
 
 ?>

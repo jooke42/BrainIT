@@ -1,10 +1,11 @@
 <?php
 
-	class DBMapper {
-		public static $database;
-		public static function init($database) {
-			self::$database = $database;
-			
-		}
-	}
+class DBMapper {
+    public static $database;
+
+    public static function init ($database) {
+        static::$database = $database;
+    }
+}
+
 ?>

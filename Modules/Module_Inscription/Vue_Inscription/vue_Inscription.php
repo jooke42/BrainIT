@@ -2,9 +2,9 @@
 
 class VueInscription {
 
-	function affichageFormInscription() {
-		if(!isset($_SESSION['Utilisateur'])) {
-		echo '<form class="connexion" name="input" action ="index.php?Module=Inscription&action=1" method="post" enctype="multipart/form-data">
+    function affichageFormInscription () {
+        if (!isset($_SESSION['Utilisateur'])) {
+            echo '<form class="connexion" name="input" action ="index.php?Module=Inscription&action=1" method="post" enctype="multipart/form-data">
 				<label>Nom: *</label>
 				<br>
 				<input type="text" name="nom" size="20" required /> 
@@ -44,11 +44,10 @@ class VueInscription {
 				<br>
 				<p>Les champs marquÃ©s d\'une * sont oligatoires</p>
 			</form>';
-		}
-		else {
-			echo '<br>Vous êtes déjà  inscrit<br>';
-		}
-	}
+        } else {
+            echo '<br>Vous ï¿½tes dï¿½jï¿½ inscrit<br>';
+        }
+    }
 }
 
 ?>

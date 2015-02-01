@@ -1,25 +1,28 @@
 <?php
 
 class ControleurConnexionAdmin {
-	private $maVue;
-	private $monModele;
-	function __construct($module) {
+    private $maVue;
+    private $monModele;
 
-		$nomVue='Vue'.$module;
-		$nomModele='Modele'.$module;
+    function __construct ($module) {
 
-		$this->monModele=new $nomModele();		
-		$this->maVue=new $nomVue();
-		
-		
-	}
-	function affichageFormConnexion() {
-		$this->maVue->affichageFormConnexion();
-	}	
-	function connexion($email,$pass) {
-		$this->monModele->connexion($email,$pass);
-		
-	}
+        $nomVue = 'Vue' . $module;
+        $nomModele = 'Modele' . $module;
+
+        $this->monModele = new $nomModele();
+        $this->maVue = new $nomVue();
+
+
+    }
+
+    function affichageFormConnexion () {
+        $this->maVue->affichageFormConnexion();
+    }
+
+    function connexion ($email, $pass) {
+        $this->monModele->connexion($email, $pass);
+
+    }
 }
 
 ?>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: root
@@ -7,60 +8,55 @@
  */
 class ModelePanier extends DBMapper {
 
-	function __construct() {}
+    function __construct () {
+    }
 
-	function ajoutPanier($idArticle, $quantite) {
+    function ajoutPanier ($idArticle, $quantite) {
 
         $idClient = $_SESSION['idClient'];
-		$req_select = self::$database->prepare("select idArticle from panier where idArticle=$idArticle and idClient=$idClient");
-		$req_select->execute();
+        $req_select = static::$database->prepare("select idArticle from panier where idArticle=$idArticle and idClient=$idClient");
+        $req_select->execute();
 
-		if($req_select->fetch()[0] == null) {
-			
-			$req = self::$database->prepare("insert into panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");  
-			$req->execute();
-			
-		} else {
+        if ($req_select->fetch()[0] == null) {
 
-			$this->modifierArticlePanier($idArticle, $quantite);
-			
-		}
+            $req = static::$database->prepare("insert into panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");
+            $req->execute();
 
-		/* AJOUT + MODIF EN MEME TEMPS */
+        } else {
 
-		/*$requete = self::$database->prepare("INSERT into panier(idClient,idArticle,quantite) VALUES (?, ?, ?) 
-											ON duplicate key 
-											UPDATE quantite=?;");
+            $this->modifierArticlePanier($idArticle, $quantite);
 
-		$requete->execute(array($idClient, $idArticle, $quantite, $quantite));*/
+        }
+
+
 
     }
 
-	function modifierArticlePanier($idArticle, $quantite) {
+    function modifierArticlePanier ($idArticle, $quantite) {
 
-		$idClient = $_SESSION['idClient'];
-        $req = self::$database->prepare("update panier set quantite='$quantite' where idClient='$idClient' and idArticle='$idArticle'");
+        $idClient = $_SESSION['idClient'];
+        $req = static::$database->prepare("update panier set quantite='$quantite' where idClient='$idClient' and idArticle='$idArticle'");
         $req->execute();
 
-	}
+    }
 
-	function supprimerArticlePanier($idArticle) {
+    function supprimerArticlePanier ($idArticle) {
 
-		$idClient = $_SESSION['idClient'];
-        $req = self::$database->prepare("delete from panier where idArticle='$idArticle'");
+        $idClient = $_SESSION['idClient'];
+        $req = static::$database->prepare("delete from panier where idArticle='$idArticle'");
         $req->execute();
-		header("Refresh: 0;URL='index.php?Module=Panier'");
-	}
+        header("Refresh: 0;URL='index.php?Module=Panier'");
+    }
 
-	function afficherPanier() {
+    function afficherPanier () {
 
-		$idClient = $_SESSION['idClient'];
-        $req = self::$database->prepare("select * from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
+        $idClient = $_SESSION['idClient'];
+        $req = static::$database->prepare("select * from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
         $req->execute();
-		
-		return $req;
 
-	}
+        return $req;
+
+    }
 
 }
 

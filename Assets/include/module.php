@@ -1,15 +1,16 @@
 <?php
 
 
-if (! defined ('TEST_INCLUDE'))
-   die ("Vous ne pouvez pas acceder directement à ce fichier");
+if (!defined('TEST_INCLUDE')) {
+    throw new Exception ("Vous ne pouvez pas acceder directement à ce fichier");
+}
 
 
 class Module {
-	var $contenu;
-	var $titre;
-
+    var $contenu;
+    var $titre;
 
 
 }
+
 ?>

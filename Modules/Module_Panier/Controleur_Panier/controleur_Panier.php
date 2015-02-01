@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: root
@@ -10,32 +11,32 @@ class ControleurPanier {
     private $maVue;
     private $monModele;
 
-    function __construct($module) {
+    function __construct ($module) {
 
-        $nomVue='Vue'.$module;
-        $nomModele='Modele'.$module;
+        $nomVue = 'Vue' . $module;
+        $nomModele = 'Modele' . $module;
 
-        $this->monModele=new $nomModele();
-        $this->maVue=new $nomVue();
-    
-	}
+        $this->monModele = new $nomModele();
+        $this->maVue = new $nomVue();
 
-    function ajoutPanier($idArticle, $quantite) {
-        $this->monModele->ajoutPanier($idArticle,$quantite);
     }
 
-	function modifierArticlePanier($idArticle, $quantite) {
-		$this->monModele->modifierArticlePanier($idArticle,$quantite);
-	}
+    function ajoutPanier ($idArticle, $quantite) {
+        $this->monModele->ajoutPanier($idArticle, $quantite);
+    }
 
-	function supprimerArticlePanier($idArticle) {
-		$this->monModele->supprimerArticlePanier($idArticle);
-	}
+    function modifierArticlePanier ($idArticle, $quantite) {
+        $this->monModele->modifierArticlePanier($idArticle, $quantite);
+    }
 
-	function afficherPanier() {
-		$req=$this->monModele->afficherPanier();
-		$this->maVue->afficherPanier($req);
-	}
+    function supprimerArticlePanier ($idArticle) {
+        $this->monModele->supprimerArticlePanier($idArticle);
+    }
+
+    function afficherPanier () {
+        $req = $this->monModele->afficherPanier();
+        $this->maVue->afficherPanier($req);
+    }
 
 }
 

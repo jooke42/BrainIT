@@ -1,25 +1,19 @@
 <?php
 
-class VueArticle{
+class VueArticle {
 
-	function affichagePageProduit($produit) {
-	
-		echo '<h1>'.$produit['libelle'].'</h1><input type="button" onclick="document.location.href=\'index.php?Module=Panier&action=1&idArticle='.$produit['idArticle'].'\'"value="Ajouter au panier"></br>';
-		echo 'prix :'.$produit['prix'].'</br>';
-		echo 'description :'.$produit['description'].'</br>';
-			/*	'id_article' => $this->_id_article,
-        'reference' => $this->_reference,
-        'libelle' => $this->_libelle,
-        'description' => $this->_description,
-	'id_categorie' => $this->_id_categorie,
-        'prix' => $this->_prix,
-        'quantiteStock' => $this->_quantiteStock);*/
-		
-		
-	}
+    function affichagePageProduit ($produit) {
 
-	function affichagePageActiverDesactiverArticle(){
-		echo '
+        echo '<h1>' . $produit['libelle'] . '</h1><input type="button" onclick="document.location.href=\'index.php?Module=Panier&action=1&idArticle=' . $produit['idArticle'] . '\'"value="Ajouter au panier"></br>';
+        echo 'prix :' . $produit['prix'] . '</br>';
+        echo 'description :' . $produit['description'] . '</br>';
+
+
+
+    }
+
+    function affichagePageActiverDesactiverArticle () {
+        echo '
 
 <form method="get" action="index.php">
    	<p>
@@ -36,12 +30,14 @@ class VueArticle{
 	</form>
 
 		';
-	}
-	function redirection(){
-		header('Location: index.php');  
-	}
-	function AffichageCreerArticle(){
-		echo '
+    }
+
+    function redirection () {
+        header('Location: index.php');
+    }
+
+    function AffichageCreerArticle () {
+        echo '
 		<form method="get" action="index.php">
    		<p>
               <input type="hidden" value="creerArticle" name="action" />
@@ -65,36 +61,38 @@ class VueArticle{
 	   </p>
 	</form>
             ';
-          }
-          	function AffichageModifierArticle($produit,$idArticle){
-		echo '
+    }
+
+    function AffichageModifierArticle ($produit, $idArticle) {
+        echo '
 		<form method="get" action="index.php">
    		<p>
         <input type="hidden" value="modifierArticle" name="action" />
         <input type="hidden" value="Article" name="Module" />
-        <input type="hidden" value="'.$idArticle.'" name="idArticle" />
+        <input type="hidden" value="' . $idArticle . '" name="idArticle" />
    		<label for="reference">reference</label>
-       	<input type="text" name="reference" id="reference" value='.$produit['reference'].' />
+       	<input type="text" name="reference" id="reference" value=' . $produit['reference'] . ' />
    		<label for="libelle">libelle</label>
-       	<input type="text" name="libelle" id="libelle"  value='.$produit['libelle'].'/>
+       	<input type="text" name="libelle" id="libelle"  value=' . $produit['libelle'] . '/>
        	<label for="marque">marque</label>
-       	<input type="text" name="marque" id="marque"  value='.$produit['marque'].'/>
+       	<input type="text" name="marque" id="marque"  value=' . $produit['marque'] . '/>
        	<label for="idArticle">description</label>
-       	<input type="text" name="description" id="description" value='.$produit['description'].' />
+       	<input type="text" name="description" id="description" value=' . $produit['description'] . ' />
        	<label for="idArticle">idCategorie</label>
-       	<input type="text" name="idCategorie" id="idCategorie"  value='.$produit['idCategorie'].'/>
+       	<input type="text" name="idCategorie" id="idCategorie"  value=' . $produit['idCategorie'] . '/>
        	<label for="idArticle">prix</label>
-       	<input type="text" name="prix" id="prix" value='.$produit['prix'].' />
+       	<input type="text" name="prix" id="prix" value=' . $produit['prix'] . ' />
        	<label for="idArticle">quantiteStock</label>
-       	<input type="text" name="quantiteStock" id="quantiteStock"  value='.$produit['quantiteStock'].'/>
+       	<input type="text" name="quantiteStock" id="quantiteStock"  value=' . $produit['quantiteStock'] . '/>
 
     	   <input type="submit" value="Envoyer" />
 	   </p>
 	</form>
             ';
-          }
-          function AffichagemodifierArticleSelection(){
-    echo '
+    }
+
+    function AffichagemodifierArticleSelection () {
+        echo '
     <form method="get" action="index.php">
       <p>
                     <input type="hidden" value="affichageModifierArticle" name="action" />
@@ -107,7 +105,7 @@ class VueArticle{
   </form>
             ';
 
-          }
+    }
 
 }
 
