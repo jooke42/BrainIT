@@ -1,29 +1,32 @@
 <?php
 
 class VuePhoto {
-
-    function affichageFormPhoto () {
-        echo '
-		<form method="post" action="index.php?Module=Photo&actionPhoto=1" enctype="multipart/form-data">
+	
+	function affichageFormPhoto($idArticle) {
+		echo '
+		<form method="post" action="index.php?Module=Photo&actionPhoto=1&idArticle='.$idArticle.'" enctype="multipart/form-data">
 			<p>Ajout d\'une photo</p>
 			<label for="mon_fichier">Fichier (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />
 			<input type="file" name="photo" id="photo" /><br />
+			<label>Definir en photo principale : </label>
+			<input type="checkbox" name="profil" checked="checked" /><br>
      			<input type="submit" name="submit" value="Envoyer" />
+			
 		</form>
 		';
-    }
+	}
 
 
-    function affichagePhotoProfil ($req) {
-
-        $resultat = $req->fetch();
-        echo '<img id="profil_timeline-img" src="' . $resultat['photo'] . '" height="160x" width="215px" />';
-
-    }
-
-    function affichagePhotoUser ($req) {
-        echo '<div id="blueimp-gallery" class="blueimp-gallery">
+	
+	function affichagePhotoArticle($req) {
+		
+		
+		//echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
+	
+	}
+	function affichagePhotoUser($req) {
+		echo '<div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
     <!-- Controls for the borderless lightbox -->
@@ -54,17 +57,17 @@ class VuePhoto {
     </div>
 </div>
 ';
-        echo '<div id="links">';
-        while ($resultat = $req->fetch()) {
-            echo '<a href="' . $resultat['photo'] . '" data-gallery>';
-            echo '<img src="' . $resultat['photo'] . '" width="250px" height="200px">';
-            echo '</a>';
+echo '<div id="links">';
+		while($resultat = $req->fetch()) {
+			echo '<a href="'.$resultat['photo'].'" data-gallery>';
+		    echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
+	   		echo '</a>';
 
-        }
-        echo '</div>';
-    }
+   		}
+echo '</div>';
+	}
 
-
+	
 }
 
 ?>
