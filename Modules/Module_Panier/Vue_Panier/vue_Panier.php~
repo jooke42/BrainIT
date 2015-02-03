@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * Created by PhpStorm.
@@ -147,3 +148,24 @@ class VuePanier {
 }
 
 ?>
+=======
+<?php
+/**
+ * Created by PhpStorm.
+ * User: root
+ * Date: 07/12/14
+ * Time: 16:09
+ */
+class VuePanier {
+
+    function afficherPanier($req){
+		echo "<strong>Panier du client : <strong>" . $_SESSION['idClient'];
+		echo "<br /><br />";
+		while($resultat = $req->fetch()) {
+			echo $resultat['idArticle'] . $resultat['libelle'];
+			echo '<br />';
+		}
+    }
+}
+?>
+>>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835

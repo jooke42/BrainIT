@@ -16,7 +16,11 @@ class ModelePhoto extends DBMapper {
 		$ext = substr(strrchr($_FILES[$index]['name'],'.'),1);
 		if ($extensions !== FALSE AND !in_array($ext,$extensions)) return FALSE;
 		//Déplacement
+<<<<<<< HEAD
 		
+=======
+	
+>>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 	  	$upload=move_uploaded_file($_FILES[$index]['tmp_name'],$destination);
 		
 		//INFO DANS BDD
@@ -31,6 +35,10 @@ class ModelePhoto extends DBMapper {
 			echo '<img src="'.$destination.'" />';
             return $idPhoto;
 			
+<<<<<<< HEAD
+=======
+			header ("Refresh: 0;URL=index.php?Module=Profil");
+>>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 		}
 		
 		
@@ -85,6 +93,7 @@ class ModelePhoto extends DBMapper {
 	}
 
 
+<<<<<<< HEAD
 	function setPhotoPrincipale($destination,$idArticle) {
 		
 		$req=self::$database->prepare("UPDATE article SET Photo=$destination WHERE idArticle=$idArticle");
@@ -92,6 +101,14 @@ class ModelePhoto extends DBMapper {
 		
 	}	
 	
+=======
+	function setPhotoProfil($idUser,$idPhoto) {
+		
+		$req=self::$database->prepare("UPDATE user SET idPhoto=$idPhoto WHERE idUser=$idUser");
+		$req->execute();
+	}	
+
+>>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 	
 }
 

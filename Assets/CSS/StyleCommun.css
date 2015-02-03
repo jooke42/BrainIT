@@ -1,0 +1,68 @@
+
+.navbar {
+    background-color: #2196F3;
+
+}
+
+#navColor {
+    color: white;
+}
+
+#imgCarrousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-page {
+    width: 100%;
+    height: 400px;
+    background-color: DimGrey;
+    color: black;
+    z-index: 2;
+}
+
+/*
+.connexion{
+    text-align:center;
+}
+
+.row{
+    width:70%;
+    margin: auto;
+    margin-top:30px;
+}
+
+
+.tbody{
+    padding-top:40px;
+    padding-bottom:20px;
+    text-align:center;
+    background-color:white;
+}
+
+.soustbody{
+    background-color:#B0BEC5;
+    color:white;
+    margin:auto;
+    width:70%;
+}
+
+footer{
+    position:fixed;
+    padding:0px 0px;
+    text-align:center;
+    background-color:#2196F3;
+    width:100%;
+    bottom:0;
+    z-index: 1;
+    color:white;
+}
+*/
+#articleVitrine {
+    margin-top: 12px;
+
+}
+

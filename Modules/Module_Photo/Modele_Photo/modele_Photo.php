@@ -85,9 +85,15 @@ class ModelePhoto extends DBMapper {
 	}
 
 
+<<<<<<< HEAD
 	function setPhotoPrincipale($destination,$idArticle) {
 		
 		$req=self::$database->prepare("UPDATE article SET Photo='$destination' WHERE idArticle=$idArticle");
+=======
+	function setPhotoPrincipale($idPhoto,$idArticle) {
+		
+		$req=self::$database->prepare("UPDATE article SET idPhoto=$idPhoto WHERE idArticle=$idArticle");
+>>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 		$req->execute();
 		
 	}	
