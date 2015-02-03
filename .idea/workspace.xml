@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/StyleCommun.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.buildpath" afterPath="$PROJECT_DIR$/.buildpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseDeDonnee/BrainITDB.sql" afterPath="$PROJECT_DIR$/BaseDeDonnee/BrainITDB.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/ConnexionAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/HomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/animate.css" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Controleur_HomePage/controleur_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Controleur_HomePage/controleur_HomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/dbmapper.php" afterPath="$PROJECT_DIR$/Assets/include/dbmapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/deconnexion.php" afterPath="$PROJECT_DIR$/Assets/include/deconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/head.php" afterPath="$PROJECT_DIR$/Assets/include/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/main.css" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Modele_ConnexionAdmin/modele_ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Modele_ConnexionAdmin/modele_ConnexionAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/module.php" afterPath="$PROJECT_DIR$/Assets/include/module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" afterPath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/price-range.css" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/responsive.css" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Vue_ConnexionAdmin/vue_ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Vue_ConnexionAdmin/vue_ConnexionAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" />
+    </list>
+    <ignored path="BrainIT.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BrainIT" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Commande.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Commande.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7150838" vertical-offset="458" max-vertical-offset="816">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categorie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.192307" vertical-offset="526" max-vertical-offset="884">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controleur_Commande.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="16.153847" vertical-offset="471" max-vertical-offset="816">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_Commande.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="4607">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <marker date="1422960274837" expanded="true" signature="466:559" placeholder="select idCom..commande..." />
+                <marker date="1422960274837" expanded="true" signature="1039:1143" placeholder="select refer..ArticleCommande..." />
+                <marker date="1422960274837" expanded="true" signature="1480:1564" placeholder="select numer..client..." />
+                <marker date="1422960274837" expanded="true" signature="3112:3162" placeholder="insert into ..." />
+                <marker date="1422960274837" expanded="true" signature="3316:3379" placeholder="select idArt..panier..." />
+                <marker date="1422960274837" expanded="true" signature="3532:3642" placeholder="select idArt..article..." />
+                <marker date="1422960274837" expanded="true" signature="4165:4329" placeholder="insert into ..." />
+                <marker date="1422960274837" expanded="true" signature="4714:4777" placeholder="select idArt..panier..." />
+                <marker date="1422960274837" expanded="true" signature="5026:5136" placeholder="select idArt..article..." />
+                <marker date="1422960274837" expanded="true" signature="5846:5935" placeholder="select idCom..Commande..." />
+                <marker date="1422960274837" expanded="true" signature="6133:6176" placeholder="delete from ..." />
+                <marker date="1422960274837" expanded="true" signature="7265:7328" placeholder="update comma..." />
+                <marker date="1422960274837" expanded="true" signature="7781:7864" placeholder="update artic..." />
+                <marker date="1422960274837" expanded="true" signature="8261:8338" placeholder="update comma..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_HomePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1422960476287" expanded="true" signature="219:260" placeholder="select idCat..categorie..." />
+                <marker date="1422960476287" expanded="true" signature="575:637" placeholder="select idArt..article..." />
+                <marker date="1422960476287" expanded="true" signature="188:229" placeholder="select idCat..categorie..." />
+                <marker date="1422960476287" expanded="true" signature="527:590" placeholder="select idArt..article..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_Categorie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="986">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1422960499122" expanded="true" signature="183:327" placeholder="SELECT idArt..article..." />
+                <marker date="1422960499122" expanded="true" signature="724:972" placeholder="SELECT idArt..article..." />
+                <marker date="1422960499122" expanded="true" signature="1455:1687" placeholder="SELECT idArt..article..." />
+                <marker date="1422960499122" expanded="true" signature="131:275" placeholder="SELECT idArt..article..." />
+                <marker date="1422960499122" expanded="true" signature="690:938" placeholder="SELECT idArt..article..." />
+                <marker date="1422960499122" expanded="true" signature="1437:1669" placeholder="SELECT idArt..article..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/include/params_connexion.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Module_Article/Modele_Article/modele_Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_HomePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_HomePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modele_HomePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Commande" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Commande" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modele_Commande" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Commande" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controleur_Commande" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Categorie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Categorie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modele_Categorie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseDeDonnee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/Modules/Module_Commande/Commande.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="" />
+      <created>1422278165505</created>
+      <option name="number" value="Default" />
+      <updated>1422278165505</updated>
+    </task>
+    <task id="LOCAL-00001" summary="panier">
+      <created>1422882036398</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1422882036398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33724833" sideWeight="0.36757624" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.63242376" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33724833" sideWeight="0.36757624" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33724833" sideWeight="0.63242376" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2520064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="panier" />
+    <option name="LAST_COMMIT_MESSAGE" value="panier" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/include/params_connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="612">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="6545">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/nav-vertical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3787" max-vertical-offset="4131">
+          <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/params_connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="6545">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/nav-vertical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3787" max-vertical-offset="4131">
+          <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/nav-vertical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78205127" vertical-offset="3585" max-vertical-offset="4131">
+          <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="6545">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/params_connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70483005" vertical-offset="31" max-vertical-offset="612">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.192307" vertical-offset="526" max-vertical-offset="884">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.153847" vertical-offset="471" max-vertical-offset="816">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="4607">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1422960274837" expanded="true" signature="466:559" placeholder="select idCom..commande..." />
+            <marker date="1422960274837" expanded="true" signature="1039:1143" placeholder="select refer..ArticleCommande..." />
+            <marker date="1422960274837" expanded="true" signature="1480:1564" placeholder="select numer..client..." />
+            <marker date="1422960274837" expanded="true" signature="3112:3162" placeholder="insert into ..." />
+            <marker date="1422960274837" expanded="true" signature="3316:3379" placeholder="select idArt..panier..." />
+            <marker date="1422960274837" expanded="true" signature="3532:3642" placeholder="select idArt..article..." />
+            <marker date="1422960274837" expanded="true" signature="4165:4329" placeholder="insert into ..." />
+            <marker date="1422960274837" expanded="true" signature="4714:4777" placeholder="select idArt..panier..." />
+            <marker date="1422960274837" expanded="true" signature="5026:5136" placeholder="select idArt..article..." />
+            <marker date="1422960274837" expanded="true" signature="5846:5935" placeholder="select idCom..Commande..." />
+            <marker date="1422960274837" expanded="true" signature="6133:6176" placeholder="delete from ..." />
+            <marker date="1422960274837" expanded="true" signature="7265:7328" placeholder="update comma..." />
+            <marker date="1422960274837" expanded="true" signature="7781:7864" placeholder="update artic..." />
+            <marker date="1422960274837" expanded="true" signature="8261:8338" placeholder="update comma..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1422960476287" expanded="true" signature="219:260" placeholder="select idCat..categorie..." />
+            <marker date="1422960476287" expanded="true" signature="575:637" placeholder="select idArt..article..." />
+            <marker date="1422960476287" expanded="true" signature="188:229" placeholder="select idCat..categorie..." />
+            <marker date="1422960476287" expanded="true" signature="527:590" placeholder="select idArt..article..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1422960499122" expanded="true" signature="183:327" placeholder="SELECT idArt..article..." />
+            <marker date="1422960499122" expanded="true" signature="724:972" placeholder="SELECT idArt..article..." />
+            <marker date="1422960499122" expanded="true" signature="1455:1687" placeholder="SELECT idArt..article..." />
+            <marker date="1422960499122" expanded="true" signature="131:275" placeholder="SELECT idArt..article..." />
+            <marker date="1422960499122" expanded="true" signature="690:938" placeholder="SELECT idArt..article..." />
+            <marker date="1422960499122" expanded="true" signature="1437:1669" placeholder="SELECT idArt..article..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7150838" vertical-offset="458" max-vertical-offset="816">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
