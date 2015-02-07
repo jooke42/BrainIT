@@ -1,4 +1,3 @@
-
 ﻿<?php
 if (!defined('TEST_INCLUDE')) {
     throw new Exception ("Vous ne pouvez pas acceder directement Ã  ce fichier");
@@ -41,6 +40,5 @@ class Categorie extends Module {
     }
 
 }
-
 
 

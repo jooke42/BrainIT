@@ -11,7 +11,7 @@ class ModeleHomePage extends DBMapper {
         foreach ($this->_listeCategorie as $categorie) {
             $this->_listeTopArticleParCategorie[$categorie['libelle']] = array();
             $idCat = $categorie['idCategorie'];
-            $req = static::$database->prepare("select idArticle from article where idCategorie=$idCat LIMIT 3 ");
+            $req = static::$database->prepare("select  idArticle from article where idCategorie=$idCat LIMIT 3 ");
             $req->execute();
             $resultat = $req->fetchall();
 

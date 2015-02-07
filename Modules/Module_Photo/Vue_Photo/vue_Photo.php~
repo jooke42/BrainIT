@@ -2,44 +2,24 @@
 
 class VuePhoto {
 	
-<<<<<<< HEAD
-	function affichageFormPhoto($idArticle) {
-		echo '
-		<form method="post" action="index.php?Module=Photo&actionPhoto=1" enctype="multipart/form-data">
-=======
 	function affichageFormPhoto() {
 		echo '
 		<form method="post" action="index.php?Module=Photo&actionPhoto=1&idArticle=2" enctype="multipart/form-data">
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 			<p>Ajout d\'une photo</p>
 			<label for="mon_fichier">Fichier (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />
 			<input type="file" name="photo" id="photo" /><br />
-<<<<<<< HEAD
-			<label>Definir en photo principale : </label>
-			<input type="checkbox" name="profil" checked="checked" /><br>
      			<input type="submit" name="submit" value="Envoyer" />
-			
-=======
-     			<input type="submit" name="submit" value="Envoyer" />
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 		</form>
 		';
 	}
 
 
 	
-<<<<<<< HEAD
-	function affichagePhotoArticle($req) {
-		
-		
-		//echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
-=======
 	function affichagePhotoProfil($req) {
 		
 		$resultat = $req->fetch();
 		echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 	
 	}
 	function affichagePhotoUser($req) {

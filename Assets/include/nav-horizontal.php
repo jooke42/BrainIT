@@ -61,26 +61,12 @@
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-<<<<<<< HEAD
-                            <li><a href="index.php?Module=Profil"><i class="fa fa-user"></i> Compte</a></li>
-=======
                             <li><a href="#"><i class="fa fa-user"></i> Compte</a></li>
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
                             <!--<li><a href="#"><i class="fa fa-star"></i> Liste de souhait</a></li>-->
                             <!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
                             <li><a href="index.php?Module=Panier&action=0"><i class="fa fa-shopping-cart"></i>
                                     Panier</a></li>
-<<<<<<< HEAD
-							<?php 
-							if(!isset( $_SESSION['idClient']) ) {
-                           echo  '<li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>'; 					
-							}
-							else {
-							  echo  '<li><a href="Assets/include/deconnexion.php"><i class="fa fa-unlock"></i> Deconnexion</a></li>';
-							} ?>
-=======
                             <li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
                         </ul>
                     </div>
                 </div>

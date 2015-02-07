@@ -38,15 +38,10 @@ class ControleurPhoto {
    		$req=$this->affichagePhotoArticleReq();
 		$this->affichagePhotoProfil($req);
 	}
-<<<<<<< HEAD
-	function setPhotoPrincipale($destination,$idArticle) {
-		$this->monModele->setPhotoPrincipale($destination,$idArticle);
-=======
 	function setPhotoPrincipale($idPhoto,$idArticle) {
 		
 		$this->monModele->setPhotoPrincipale($idPhoto,$idArticle);
 		
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 		header("Refresh: 0;URL='index.php?Module=Article&idArticle=$idArticle'");
 	}
 

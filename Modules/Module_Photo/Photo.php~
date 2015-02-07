@@ -5,11 +5,7 @@ if (! defined ('TEST_INCLUDE'))
 
 
 class Photo extends Module {
-<<<<<<< HEAD
-	public $monControleur;
-=======
 	
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 	function __construct() {
 		
 		$module=get_class($this);
@@ -29,20 +25,11 @@ class Photo extends Module {
 				$actionPhoto=0;
 			}
 		}
-<<<<<<< HEAD
-				
-	
-		if(isset($_POST['MAX_FILE_SIZE'])) {
-			
-			$maxsize=$_POST['MAX_FILE_SIZE'];	
-			
-=======
 
 		if(isset($_POST['MAX_FILE_SIZE'])) {
 			
 			$maxsize=$_POST['MAX_FILE_SIZE'];	
 			var_dump($maxsize);
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 		}
 		else {
 			$titre=null;
@@ -65,20 +52,8 @@ class Photo extends Module {
 			case 0:	
 				$monControleur->affichagePhotoArticle($idArticle);
 			case 1:
-<<<<<<< HEAD
-				if(isset($_POST['profil'])) {
-					
-					$idPhoto=$monControleur->uploadPhoto($idArticle,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
-					
-					$monControleur->setPhotoPrincipale($idPhoto,$idArticle);
-				}
-				else {
-					$monControleur->uploadPhoto($idArticle,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
-				}
-=======
 				
 				$upload=$monControleur->uploadPhoto($idArticle,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 				
 			break;
 

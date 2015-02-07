@@ -57,11 +57,7 @@ class Photo extends Module {
 					
 					$idPhoto=$monControleur->uploadPhoto($idArticle,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
 					
-<<<<<<< HEAD
-					$monControleur->setPhotoPrincipale($destination,$idArticle);
-=======
 					$monControleur->setPhotoPrincipale($idPhoto,$idArticle);
->>>>>>> 57e8c5ec3ce809f43b687297c8e1861f29be8835
 				}
 				else {
 					$monControleur->uploadPhoto($idArticle,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));

@@ -1,4 +1,5 @@
 <?php
+
 if ( !defined ( 'TEST_INCLUDE' ) )
     die ( "Vous n'avez pas accès directement �&nbsp; ce fichier" );
 
@@ -29,7 +30,7 @@ class ModeleCommande extends DBMapper
         }
         $this->listeArticles = $donneesCommandeArticles;
         //Partie livraison:
-        $adresse                = self::requeteFromBD ( "select nom, prenom, numero, adresse, codePostal, ville, pays from client where idClient=:idClient", array ( 'idClient' => $commande[ 'idClient' ] ) );
+        $adresse                = self::requeteFromBD ( "select numero, adresse, codePostal, ville, pays from client where idClient=:idClient", array ( 'idClient' => $commande[ 'idClient' ] ) );
         $adresse                = $adresse[ 0 ];
         $this->adresseLivraison = $adresse;
     }
