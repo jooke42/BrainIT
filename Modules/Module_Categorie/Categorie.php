@@ -11,8 +11,7 @@ class Categorie extends Module {
     function __construct () {
 
         $module = get_class($this);
-        $nomControleur = 'Controleur' . $module;
-        $monControleur = new $nomControleur($module);
+        $monControleur = new ControleurCategorie($module);
         $modele = new ModeleCategorie();
         if (!isset($action)) {
             if (isset($_GET['action'])) {
@@ -23,13 +22,13 @@ class Categorie extends Module {
         }
         $order = isset($_GET['order']) ? $_GET['order'] : 'libelle';
         $categorie = isset($_GET['categorie']) ? $_GET['categorie'] : null;
-        $query = isset($_GET['query']) ? $_GET['query'] : null;
+        $query = isset($_POST['search']) ? $_POST['search'] : null;
         switch ($action) {
             case 0:
                 $monControleur->affichageProduitsParDefault();
                 break;
             case 1:
-                $monControleur->afficherArticle($query);
+                $monControleur->search($query);
                 break;
             default:
 

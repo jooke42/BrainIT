@@ -8,12 +8,13 @@ class ControleurCategorie {
         $this->_Modele = new ModeleCategorie();
     }
 
-    function afficherArticle ($query) {
-        $listeArticle = $this->_Modele->searchArticle($query);
+    function affichageProduitsParDefault () {
+        $listeArticle = $this->_Modele->affichageProduitsParDefault();
         $this->_vue->afficherArticle($listeArticle);
     }
-    function affichageProduitsParDefault(){
-        $list=$this->_Modele->affichageProduitsParDefault();
+
+    function search($query){
+        $list=$this->_Modele->searchArticle($query);
         $this->_vue->afficherArticle($list);
     }
 
