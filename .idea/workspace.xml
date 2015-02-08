@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\animate.css" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\main.css" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\price-range.css" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\responsive.css" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/Recherche_image_b_b_80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/bizarre-eyes1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/i7_badge_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/blueimp-bootstrap-image-gallery.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -181,7 +180,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88770056" vertical-offset="267" max-vertical-offset="1156">
+            <state vertical-scroll-proportion="0.93084115" vertical-offset="267" max-vertical-offset="1156">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
@@ -222,10 +221,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -266,34 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,20 +325,27 @@
       <option name="project" value="LOCAL" />
       <updated>1422882036398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clean version&#10;">
+      <created>1423408907728</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1423408907728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5379679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="1.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33724833" sideWeight="0.36757624" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32564104" sideWeight="0.63242376" order="7" side_tool="false" content_ui="tabs" />
@@ -378,7 +354,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -826,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88770056" vertical-offset="267" max-vertical-offset="1156">
+        <state vertical-scroll-proportion="0.93084115" vertical-offset="267" max-vertical-offset="1156">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
