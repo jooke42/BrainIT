@@ -7,38 +7,45 @@ class VueCategorie {
 
     function afficherArticle ($listeArticle) {
 
-        ?>
-        <table class="table table-striped table-hover ">
-            <thead>
-            <tr>
-                <th>reference</th>
-                <th>libelle</th>
-                <th>description</th>
-                <th>quantité en stock</th>
-                <th>prix à l'unité</th>
-            </tr>
-            </thead>
-            <tbody><?php
+
             foreach ($listeArticle as $article) {
-                $article = $article->getArticle();
-                ?>
-                <tr>
-                    <th><?php echo $article['reference']; ?></th>
-                    <th><a href="index.php?Module=Article&action=" <?php echo $article['libelle']; ?></th>
-                    <th><?php if (strlen($article['description']) > 100) {
-                            $str = substr($article['description'], 0, 100) . '...';
-                            echo $str;
-                        } else {
-                            echo $article['description'];
-                        }
-                        ?></th>
-                    <th><?php echo $article['quantiteStock']; ?></th>
-                    <th><?php echo $article['prix'] . "€"; ?></th>
-                </tr>
+                $article = $article->getArticle(); ?>
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="<?php echo $article["Photo"] ;?>" alt=""/>
 
+                                <h2><?php echo $article['prix'] . "  €"; ?></h2>
 
+                                <p><?php echo $article['libelle']; ?></p>
+                                <a href="#" class="btn btn-default add-to-cart"><i
+                                        class="fa fa-shopping-cart"></i>Ajouter
+                                    au panier</a>
+                            </div>
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h2><?php echo $article['prix'] . "  €" ;?></h2>
+
+                                    <p><?php echo $article['libelle']; ?></p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Ajouter au panier</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <ul class="nav nav-pills nav-justified">
+                                <li>
+                                    <a href="index.php?Module=Article&idArticle=<?php echo $article['idArticle'] ?>"><i
+                                            class="fa fa-plus-square"></i>Détail du produit</a></li>
+                                <!--<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             <?php
+
 
             }
             ?>

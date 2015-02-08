@@ -66,7 +66,14 @@
                             <!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
                             <li><a href="index.php?Module=Panier&action=0"><i class="fa fa-shopping-cart"></i>
                                     Panier</a></li>
-                            <li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>
+                            <?php
+                            if(!isset($_SESSION['Utilisateur'])){
+                                echo '<li><a href="index.php?Module=Connexion"><i class="fa fa-lock"></i> Connexion</a></li>';
+                            }else{
+                                echo '<li><a href="Assets/include/deconnexion.php"><i class="fa fa-lock"></i> Deconnexion</a></li>';
+                            }
+
+                            ?>
                         </ul>
                     </div>
                 </div>
@@ -98,7 +105,7 @@
                                     <li><a href="login.html">Login</a></li>
                                 </ul>
                             </li>-->
-                            <li><a href="shop.html">Produits</a></li>
+                            <li><a href=index.php?Module=Categorie>Produits</a></li>
                             <!--<li><a href="product-details.html">Détail des produits</a></li>-->
                             <li><a href="index.php?Module=Panier&action=0">Panier</a></li>
                             <!--<li><a href="checkout.html">Checkout</a></li>-->

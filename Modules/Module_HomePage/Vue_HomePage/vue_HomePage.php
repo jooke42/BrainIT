@@ -23,7 +23,7 @@ class VueHomePage {
                             <div class="product-image-wrapper">
                                 <div class="single-products">
                                     <div class="productinfo text-center">
-                                        <img src="Assets/images/home/no_photo.gif" alt=""/>
+                                        <img src="<?php echo $article["Photo"];?>" alt=""/>
 
                                         <h2><?php$article['prix'] . "  €" ?></h2>
 

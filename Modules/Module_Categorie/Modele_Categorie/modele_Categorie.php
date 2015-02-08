@@ -48,5 +48,18 @@ class ModeleCategorie extends DBMapper {
 
         return $listeArticle;
     }
+    function affichageProduitsParDefault(){
+        $listeDeproduitParCategorie=array();
+            $req = static::$database->prepare("select  idArticle from article ");
+            $req->execute();
+            $resultat = $req->fetchall();
+
+            foreach ($resultat as $article) {
+                array_push($listeDeproduitParCategorie, new ModeleArticle($article['idArticle']));
+            }
+
+
+        return $listeDeproduitParCategorie;
+    }
 
 }

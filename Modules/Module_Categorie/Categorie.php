@@ -26,15 +26,13 @@ class Categorie extends Module {
         $query = isset($_GET['query']) ? $_GET['query'] : null;
         switch ($action) {
             case 0:
-                $listeArticle = $modele->getListeArticle($categorie, $order);
-                $monControleur->afficherArticle($listeArticle);
+                $monControleur->affichageProduitsParDefault();
                 break;
             case 1:
-                $listeArticle = $modele->searchArticle($query);
-                $monControleur->afficherArticle($listeArticle);
+                $monControleur->afficherArticle($query);
                 break;
             default:
-                echo "default";
+
                 break;
         }
     }
