@@ -1,6 +1,6 @@
 /*
- * Bootstrap Image Gallery Gruntfile
- * https://github.com/blueimp/Bootstrap-Image-Gallery
+ * blueimp Gallery Gruntfile
+ * https://github.com/blueimp/grunt-locales
  *
  * Copyright 2013, Sebastian Tschan
  * https://blueimp.net
@@ -9,18 +9,54 @@
  * http://www.opensource.org/licenses/MIT
  */
 
-/*global module */
+/* global module */
 
 module.exports = function (grunt) {
     'use strict';
 
     grunt.initConfig({
         jshint: {
+            options: {
+                jshintrc: '.jshintrc'
+            },
             all: [
                 'Gruntfile.js',
-                'js/bootstrap-image-gallery.js',
+                'js/blueimp-helper.js',
+                'js/blueimp-gallery.js',
+                'js/blueimp-gallery-fullscreen.js',
+                'js/blueimp-gallery-indicator.js',
+                'js/blueimp-gallery-video.js',
+                'js/blueimp-gallery-vimeo.js',
+                'js/blueimp-gallery-youtube.js',
+                'js/jquery.blueimp-gallery.js',
                 'js/demo.js'
             ]
+        },
+        uglify: {
+            standalone: {
+                src: [
+                    'js/blueimp-helper.js',
+                    'js/blueimp-gallery.js',
+                    'js/blueimp-gallery-fullscreen.js',
+                    'js/blueimp-gallery-indicator.js',
+                    'js/blueimp-gallery-video.js',
+                    'js/blueimp-gallery-vimeo.js',
+                    'js/blueimp-gallery-youtube.js'
+                ],
+                dest: 'js/blueimp-gallery.min.js'
+            },
+            jqueryPlugin: {
+                src: [
+                    'js/blueimp-gallery.js',
+                    'js/blueimp-gallery-fullscreen.js',
+                    'js/blueimp-gallery-indicator.js',
+                    'js/blueimp-gallery-video.js',
+                    'js/blueimp-gallery-vimeo.js',
+                    'js/blueimp-gallery-youtube.js',
+                    'js/jquery.blueimp-gallery.js'
+                ],
+                dest: 'js/jquery.blueimp-gallery.min.js'
+            }
         },
         less: {
             production: {
@@ -28,17 +64,11 @@ module.exports = function (grunt) {
                     cleancss: true
                 },
                 src: [
-                    'css/bootstrap-image-gallery.css'
+                    'css/blueimp-gallery.css',
+                    'css/blueimp-gallery-indicator.css',
+                    'css/blueimp-gallery-video.css'
                 ],
-                dest: 'css/bootstrap-image-gallery.min.css'
-            }
-        },
-        uglify: {
-            production: {
-                src: [
-                    'js/bootstrap-image-gallery.js'
-                ],
-                dest: 'js/bootstrap-image-gallery.min.js'
+                dest: 'css/blueimp-gallery.min.css'
             }
         }
     });

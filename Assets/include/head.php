@@ -8,7 +8,9 @@
     <meta name="description" content=""/>
     <meta name="author" content=""/>
     <title>Home | Brain IT</title>
+	<link href="Assets/css/blueimp-gallery.min.css" rel="stylesheet" >
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+	
     <link href="Assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="Assets/css/prettyPhoto.css" rel="stylesheet">
     <link href="Assets/css/price-range.css" rel="stylesheet">

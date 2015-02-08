@@ -29,22 +29,22 @@ class VueArticle{
 	'id_categorie' => $this->_id_categorie,
         'prix' => $this->_prix,
         'quantiteStock' => $this->_quantiteStock);*/
-
+		
 		if(isset($_SESSION['idAdmin'])) {
 			$controleurPhoto->affichageFormPhoto($produit['idArticle']);
 		}
-		echo '<div class="product-details"><!--product-details-->
+				echo '<div class="product-details"><!--product-details-->
 						<div class="col-sm-5">
 							<div class="view-product">
 								';
-		echo '<img src="'.$produit["Photo"].'" alt="unphoto" />';
-		echo '<h3>Zoom</h3>
+				echo '<img src="'.$produit["Photo"].'" alt="unphoto" />';
+				echo '<h3>Zoom</h3>
 							</div>
 							<div id="similar-product" class="carousel slide" data-ride="carousel">
 								
 								  <!-- Wrapper for slides -->';
-		echo '<div class="carousel-inner">';
-		echo '<div id="blueimp-gallery" class="blueimp-gallery">
+							echo '<div class="carousel-inner">';
+							echo '<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
 								<!-- The container for the modal slides -->
 								<div class="slides"></div>
 								<!-- Controls for the borderless lightbox -->
@@ -77,42 +77,42 @@ class VueArticle{
 									</div>
 								</div>
 							</div>';
-		echo '<div id="links">';
-		foreach ($photo as $unePhoto ) {
-			echo '<a href="'.$unePhoto[4].'" data-gallery><img src="';
-			echo $unePhoto[4];
-			echo '" alt="unePhoto" width="20%" height="20%"></a>';
-		}
-		echo '</div>';
+							echo '<div id="links">';
+							foreach ($photo as $unePhoto ) {
+									echo '<a href="'.$unePhoto[4].'" data-gallery><img src="';
+									echo $unePhoto[4];
+									echo '" alt="unePhoto" width="20%" height="20%"></a>';
+							}
+								echo '</div>';	
+							
+								
+									
+									
+								
+							
+						
+							echo '</div>';
+								   
 
-
-
-
-
-
-
-		echo '</div>';
-
-
-		echo '<!-- Controls -->
+								  echo '<!-- Controls -->
 								  
 							</div>
 
 						</div>
 						<div class="col-sm-7">
 							<div class="product-information"><!--/product-information-->
-								<img src="Assets/images/product-details/new.jpg" class="newarrival" alt="" />
+								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
 								<h2>';
-		echo $produit['libelle'];
-		echo '</h2>';
-		echo '<p>';
-		echo $produit['reference'];
-		echo '</p>';
-		echo '<img src="Assets/images/product-details/rating.png" alt="" />
+								echo $produit['libelle'];
+								echo '</h2>';
+								echo '<p>';
+								echo $produit['reference'];
+								echo '</p>';
+								echo '<img src="images/product-details/rating.png" alt="" />
 								<span>
 									<span>';
-		echo $produit['prix'];
-		echo '€</span>
+								echo $produit['prix'];
+								echo '€</span>
 									<label>Quantity:</label>
 									<input type="text" value="1" />
 									<button type="button" class="btn btn-fefault cart" onclick="document.location.href=\'index.php?Module=Panier&action=1&idArticle='.$produit['idArticle'].'\'">
@@ -121,14 +121,14 @@ class VueArticle{
 									</button>
 								</span>
 								<p><b>Availability:</b> En stock (';
-		echo $produit['quantiteStock'].' restant)';
-		echo'</p>';
-		echo 'Description : ';
+								echo $produit['quantiteStock'].' restant)';
+								echo'</p>';
+								echo 'Description : ';
 
-		echo substr($produit['description'],0, 400);
-		echo '<a id="lirelaSuite" onclick=getdesc() >Lire la suite ...</a>';
-
-		echo '<a href=""><img src="Assets/images/product-details/share.png" class="share img-responsive"  alt="" /></a>
+								echo substr($produit['description'],0, 400);
+								echo '<a id="lirelaSuite" onclick=getdesc() >Lire la suite ...</a>';
+								
+								echo '<a href=""><img src="images/product-details/share.png" class="share img-responsive"  alt="" /></a>
 							</div><!--/product-information-->
 						</div>
 					</div><script>function getDesc()
@@ -159,7 +159,7 @@ class VueArticle{
 		';
 	}
 	function redirection(){
-		header('Location: index.php');
+		header('Location: index.php');  
 	}
 	function AffichageCreerArticle(){
 		echo '
@@ -186,8 +186,8 @@ class VueArticle{
 	   </p>
 	</form>
             ';
-	}
-	function AffichageModifierArticle($produit,$idArticle){
+          }
+          	function AffichageModifierArticle($produit,$idArticle){
 		echo '
 		<form method="get" action="index.php">
    		<p>
@@ -213,9 +213,9 @@ class VueArticle{
 	   </p>
 	</form>
             ';
-	}
-	function AffichagemodifierArticleSelection(){
-		echo '
+          }
+          function AffichagemodifierArticleSelection(){
+    echo '
     <form method="get" action="index.php">
       <p>
                     <input type="hidden" value="affichageModifierArticle" name="action" />
@@ -228,7 +228,7 @@ class VueArticle{
   </form>
             ';
 
-	}
+          }
 
 }
 
