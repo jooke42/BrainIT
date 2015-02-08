@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/Recherche_image_b_b_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/bizarre-eyes1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/i7_badge_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/photo/index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/blueimp-bootstrap-image-gallery.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/package.json" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\animate.css" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\main.css" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\price-range.css" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\responsive.css" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -263,6 +255,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
