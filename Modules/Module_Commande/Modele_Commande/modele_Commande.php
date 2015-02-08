@@ -6,16 +6,19 @@ if ( !defined ( 'TEST_INCLUDE' ) )
 
 class ModeleCommande extends DBMapper
 {
+    static    $urlPaiement  = "http://localhost/brainit-master2/index.php?Module=Commande&action=envoiePaiement"; // URL de retour de la banque
+    static    $urlLivraison = "http://localhost/brainit-master2/index.php?Module=Commande&action=envoieFournisseur"; // URL de retour de la livraison
     protected $idCommande;
     protected $status;// Etat paiement
     protected $dateLivraison;//Etat livraison
     protected $listeArticles;
     protected $adresseLivraison;
+    protected $nomPrenom;
 
     function __construct ( $idCommande )
     {
         // Recuperation des infos de la commande
-        $commande = self::requeteFromBD ( "select idCommande, status, dateLivraison, idClient from commande where idCommande=:idCommande", array ( 'idCommande' => $idCommande ) );
+        $commande = self::requeteFromBD ( "select idCommande, status, dateLivraison, idClient from Commande where idCommande=:idCommande", array ( 'idCommande' => $idCommande ) );
         $commande = $commande[ 0 ];
         if ( count ( $commande ) <= 0 ) {
             throw new Exception( "Erreur: commande inconnu" );
@@ -28,11 +31,18 @@ class ModeleCommande extends DBMapper
         if ( count ( $donneesCommandeArticles ) == 0 ) {
             throw new Exception( "Les article de la commande sont non existants" );
         }
-        $this->listeArticles = $donneesCommandeArticles;
+        $listeArticles       = $donneesCommandeArticles;
+        $this->listeArticles = array ();
+        foreach ( $listeArticles as $article ) {
+            $articleDonnees = array ( 'reference' => $article[ 'reference' ], 'libelle' => $article[ 'libelle' ], 'idCategorie' => $article[ 'idCategorie' ], 'prix' => $article[ 'prix' ], 'quantite' => $article[ 'quantite' ] );
+            array_push ( $this->listeArticles, $articleDonnees );
+        }
         //Partie livraison:
-        $adresse                = self::requeteFromBD ( "select numero, adresse, codePostal, ville, pays from client where idClient=:idClient", array ( 'idClient' => $commande[ 'idClient' ] ) );
+        $adresse                = self::requeteFromBD ( "select numero, adresse, codePostal, ville, pays from Client where idClient=:idClient", array ( 'idClient' => $commande[ 'idClient' ] ) );
         $adresse                = $adresse[ 0 ];
-        $this->adresseLivraison = $adresse;
+        $this->adresseLivraison = array ( 'numero' => $adresse[ 'numero' ], 'adresse' => $adresse[ 'adresse' ], 'codePostal' => $adresse[ 'codePostal' ], 'ville' => $adresse[ 'ville' ], 'pays' => $adresse[ 'pays' ] );
+        $this->nomPrenom        = self::requeteFromBD ( "select nom, prenom from Client where idClient=:idClient", array ( 'idClient' => $commande[ 'idClient' ] ) );
+        $this->nomPrenom        = $this->nomPrenom[ 0 ];
     }
 
     /**     Cette méthode permet d'envoyer des requetes sur la BD
@@ -63,8 +73,12 @@ class ModeleCommande extends DBMapper
         } catch ( PDOException $e ) {
             echo 'Échec lors de la connexion : ' . $e->getMessage ();
         }
-        $resultat = $reponse->fetchAll ();
 
+        if(substr($requete, 0, 6) == "insert"  || substr($requete, 0, 6) == "delete" || substr($requete, 0, 6) == "update" ){
+            return true;
+        }else{
+            $resultat = $reponse->fetchAll ();
+        }
         return $resultat;
     }
 
@@ -78,11 +92,10 @@ class ModeleCommande extends DBMapper
             foreach ( $articles as $article ) {
                 $articleRecuperee       = self::requeteFromBD ( "select idArticle, reference, libelle, idCategorie, prix, quantiteStock from article where idArticle=:idArticle", array ( 'idArticle' => $article[ 'idArticle' ] ) );
                 $articleRecuperee       = $articleRecuperee[ 0 ];
-                $donneesArticleCommande = array ( 'idCommande' => $idCommande, 'reference' => $articleRecuperee[ 'reference' ], 'libelle' => $articleRecuperee[ 'libelle' ], 'idCategorie' => $articleRecuperee[ 'idCategorie' ], 'prix' => $articleRecuperee[ 'prix' ], 'quantite' => $article[ 'quantiteStock' ] );
-                print_r ( $donneesArticleCommande );
+                $donneesArticleCommande = array ( 'idCommande' => $idCommande, 'reference' => $articleRecuperee[ 'reference' ], 'libelle' => $articleRecuperee[ 'libelle' ], 'idCategorie' => $articleRecuperee[ 'idCategorie' ], 'prix' => $articleRecuperee[ 'prix' ], 'quantite' => $article[ 'quantite' ] );
                 self::requeteFromBD ( "insert into ArticleCommande (idCommande, reference, libelle, prix, idCategorie, quantite) values (:idCommande, :reference, :libelle, :prix, :idCategorie, :quantite)", $donneesArticleCommande );
             }
-            echo "Creation de la commande reussit num : " . $idCommande;
+            echo "<h2>Creation de la commande reussit num : " . $idCommande."</h2>";
             self::viderPanier ( $idClient );
 
             return $idCommande;
@@ -111,10 +124,13 @@ class ModeleCommande extends DBMapper
 
     static function getLastIdCommande ( $idClient )
     {
-        $resultat = self::requeteFromBD ( "select idCommande from Commande where idClient=:idClient order by idCommande DESC limit 1", array ( 'idClient' => $idClient ) );
-        $resultat = $resultat[ 0 ][ 0 ];
+        $idCommande = self::requeteFromBD ( "select idCommande from Commande where idClient=:idClient order by idCommande DESC limit 1", array ( 'idClient' => $idClient ) );
+        if ( $idCommande == NULL || count ( $idCommande ) == 0 ) {
+            return NULL;
+        }
+        $idCommande = $idCommande[ 0 ][ 0 ];
 
-        return $resultat;
+        return $idCommande;
     }
 
     static function viderPanier ( $idClient )
@@ -123,20 +139,7 @@ class ModeleCommande extends DBMapper
     }
 
     /**
-     * Pour paiement
-     * @return int
-     */
-    function getMontantTotal ()
-    {
-        $somme = 0;
-        foreach ( $this->listeArticles as $article ) {
-            $somme += $article[ 'prix' ] * $article[ 'quantite' ];
-        }
-
-        return $somme;
-    }
-
-    /**
+     * Paiement a été fait ou pas
      * @return mixed
      */
     public function getStatus ()
@@ -161,14 +164,6 @@ class ModeleCommande extends DBMapper
     }
 
     /**
-     * @return mixed
-     */
-    public function getAdresseLivraison ()
-    {
-        return $this->adresseLivraison;
-    }
-
-    /**
      * Valide une commande
      * @throws Exception
      */
@@ -177,7 +172,7 @@ class ModeleCommande extends DBMapper
         if ( $this->status == TRUE ) {
             throw new Exception( "La commande a deja été payé" );
         } else {
-            self::requeteFromBD ( "update commande set status=:status where idCommande=:idCommande", array ( 'status' => TRUE, 'idCommande' => $this->idCommande ) );
+            self::requeteFromBD ( "update Commande set status=:status where idCommande=:idCommande", array ( 'status' => TRUE, 'idCommande' => $this->idCommande ) );
             $this->status = TRUE;
             //Quand paiement validé, alors on retire du stock les articles achetées
             $this->decrementerStock ();
@@ -205,62 +200,97 @@ class ModeleCommande extends DBMapper
     }
 
     /**
+     * Renvoie liste
+     * idCommande
+     * dateLivraison
+     * prix total
+     * articles = array(idArticle, reference, libelle, description)
+     */
+    public function getRecapCommande ()
+    {
+        $articles = array ();
+        foreach ( $this->listeArticles as $article ) {
+            $articleResultat = array ( 'reference' => $article[ 'reference' ], 'libelle' => $article[ 'libelle' ], 'prix' => $article[ 'prix' ], 'quantite' => $article[ 'quantite' ] );
+            array_push ( $articles, $articleResultat );
+        }
+        $donnees = array ( 'idCommande' => $this->idCommande, 'dateLivraison' => $this->dateLivraison, 'prixTotal' => $this->getMontantTotal (), 'articles' => $articles );
+
+        return $donnees;
+    }
+
+    /**
+     * Pour paiement
+     * @return int
+     */
+    function getMontantTotal ()
+    {
+        $somme = 0;
+        foreach ( $this->listeArticles as $article ) {
+            $somme += $article[ 'prix' ] * $article[ 'quantite' ];
+        }
+
+        return $somme;
+    }
+
+    /**
      * Valide une livraison
      */
     function validerLivraison ( $datePrevu )
     {
-        self::requeteFromBD ( "update commande set dateLivraison=:dateLivraison where idCommande=:idCommande", array ( 'idCommande' => $this->idCommande, 'dateLivraison' => $datePrevu ) );
+        $datePrevu     = date_create ( $datePrevu );
+        $datePrevu     = date_format ( $datePrevu, 'Y-m-d' );
+        $selecPreparee = self::$database->prepare ( 'update Commande set dateLivraison=? where idCommande=?' );
+        $selecPreparee->execute ( Array ( $datePrevu, $this->idCommande ) );
+        //self::requeteFromBD ( "update Commande set dateLivraison=:dateLivraison where idCommande=:idCommande", array ( 'idCommande' => $this->idCommande, 'dateLivraison' => "2015-06-05" ) );
         $this->dateLivraison = $datePrevu;
     }
 
-
-
-    /*
-    static function createCommande($idClient){
-        try{
-            self::verifierPanier($idClient);
-            self::requeteFromBD("insert into Commande (idClient) values (:idClient)", array('idClient' => $idClient));
-            $idCommande=self::requeteFromBD("select idCommande from Commande where idClient=:idClient order by idCommande DESC limit 1",array('idClient' => $idClient));
-            $idCommande=$idCommande[0];
-            $articles=self::requeteFromBD("select idArticle, quantite from panier where idClient=:idClient",array('idClient' => $idClient));
-            foreach($articles as $article){
-                $articleRecuperee=self::requeteFromBD("select idArticle, reference, libelle, idCategorie, prix, quantiteStock from article where idArticle=:idArticle", array('idArticle' => $article['idArticle']));
-                $articleRecuperee=$articleRecuperee[0];
-                $donneesArticleCommande=array('idCommande' => $idCommande, 'reference' => $articleRecuperee['reference'], 'libelle' => $articleRecuperee['libelle'], 'idCategorie' => $articleRecuperee['idCategorie'], 'prix' => $articleRecuperee['prix'], 'quantite' => $articleRecuperee['quantiteStock']);
-                self::requeteFromBD("insert into ArticleCommande (idCommande, reference, libelle, prix, idCategorie, quantite) values (:idCommande, :reference, :libelle, :prix, :idCategorie, :quantite)",$donneesArticleCommande);
-            }
-            echo "Creation de la commande reussit num : ".$idCommande;
-            return $idCommande;
-        }catch(Exception $e){
-            echo $e->getMessage();
-        }
+    /**
+     * Retourne le json :
+     * pour la livraison
+     * @return String
+     */
+    function getJsonLivraison ()
+    {
+        return json_encode ( $this->getArrayLivraison () );
     }
-    */
-    /*
-    static function verifierPanier($idClient){
-       $idPanier=self::requeteFromBD("select idPanier from panier where idClient=:idClient",array('idClient' => $idClient));
-        $idPanier =$idPanier[0];
 
-        if(count($idPanier)<=0){
-            throw new Exception("Erreur: panier non existant ou client inconnu");
-        }
-*/
-    /*
-        $articles=self::requeteFromBD("select idArticle, quantite from panier where idClient=:idClient",array('idClient' => $idClient));
-        if(count($articles)<=0){
-            throw new Exception("Erreur: panier vide");
-        }
-        foreach($articles as $article){
-            $articleRecuperee=self::requeteFromBD("select idArticle, reference, libelle, idCategorie, prix, quantiteStock from article where idArticle=:idArticle", array('idArticle' => $article['idArticle']));
-            $articleRecuperee=$articleRecuperee[0];
-            if($articleRecuperee == NULL || count($articleRecuperee)<=0){
-                throw new Exception("Erreur : article inconnu numero ".$article['idProduit']);
-            }
-            if($articleRecuperee['quantiteStock']<$article['quantite']){
-                throw new Exception("Erreur: le stock de l'article n'est pas suffisant : Voulu : ". $article['quantite']. "; Restant : ".$articleRecuperee['quantiteStock']);
-            }
-        }
+    /**
+     * Retourne une liste de commande :
+     * pour la livraison
+     * @return array
+     */
+    function getArrayLivraison ()
+    {
+        $client   = array ( 'nom' => $this->nomPrenom[ 'nom' ], 'prenom' => $this->nomPrenom[ 'prenom' ], 'adresse' => $this->getAdresseLivraison () );
+        $commande = array ( 'client' => $client, 'produit' => $this->getListesArticlesLivraison () );
+        $json     = ( array ( 'commande' => $commande ) );
+
+        return $json;
     }
-*/
+
+    /**
+     * numero, voie, ville , etc
+     * @return mixed
+     */
+    public function getAdresseLivraison ()
+    {
+        return $this->adresseLivraison;
+    }
+
+    /**
+     * Pour la livraison :
+     * retourne liste d'articles sous la forme : array ('reference' , 'quantite')
+     * @return array
+     */
+    public function getListesArticlesLivraison ()
+    {
+        $listArticles = array ();
+        foreach ( $this->listeArticles as $article ) {
+            $articleLivraison = array ( 'reference' => $article[ 'reference' ], 'quantite' => $article[ 'quantite' ] );
+            array_push ( $listArticles, $articleLivraison );
+        }
+
+        return $listArticles;
+    }
 }
-
