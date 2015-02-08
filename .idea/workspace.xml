@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\animate.css" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\main.css" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\price-range.css" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\responsive.css" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -268,38 +261,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value=".settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -437,7 +398,8 @@
     </option>
     <MESSAGE value="panier" />
     <MESSAGE value="clean version&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean version&#10;" />
+    <MESSAGE value="clean version bug upperCase resolu (&quot;CSS&quot; -&gt; &quot;css&quot;)&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean version bug upperCase resolu (&quot;CSS&quot; -&gt; &quot;css&quot;)&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
