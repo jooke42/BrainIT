@@ -2,85 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\CSS\bootstrap-image-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\CSS\bootstrap-image-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\CSS\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\blueimp-bootstrap-image-gallery.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\images\ico\favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\img\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\js\bootstrap-image-gallery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\js\bootstrap-image-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\js\demo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\photo\PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\photo\Recherche_image_b_b_80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\photo\bizarre-eyes1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\photo\i7_badge_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Assets\photo\index.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Controleur_Article\controleur_Article (2).php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Modele_Article\modele_Article (2).php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Module_Article\Article.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Module_Article\Controleur_Article\controleur_Article.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Module_Article\Modele_Article\modele_Article.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\BrainIT\Modules\Module_Article\Module_Article\Vue_Article\vue_Article.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.buildpath" afterPath="$PROJECT_DIR$/.buildpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseDeDonnee/BrainITDB.sql" afterPath="$PROJECT_DIR$/BaseDeDonnee/BrainITDB.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/ConnexionAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/animate.css" afterPath="$PROJECT_DIR$/Assets/CSS/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/CSS/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\animate.css" afterPath="$PROJECT_DIR$/Assets/css/animate.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Controleur_HomePage/controleur_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Controleur_HomePage/controleur_HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/dbmapper.php" afterPath="$PROJECT_DIR$/Assets/include/dbmapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/deconnexion.php" afterPath="$PROJECT_DIR$/Assets/include/deconnexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/CSS/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/head.php" afterPath="$PROJECT_DIR$/Assets/include/head.php" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/Assets/css/font-awesome.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/main.css" afterPath="$PROJECT_DIR$/Assets/CSS/main.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\main.css" afterPath="$PROJECT_DIR$/Assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" afterPath="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Modele_ConnexionAdmin/modele_ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Modele_ConnexionAdmin/modele_ConnexionAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/module.php" afterPath="$PROJECT_DIR$/Assets/include/module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" afterPath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.php.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/CSS/prettyPhoto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/price-range.css" afterPath="$PROJECT_DIR$/Assets/CSS/price-range.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/CSS/responsive.css" afterPath="$PROJECT_DIR$/Assets/CSS/responsive.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\prettyPhoto.css" afterPath="$PROJECT_DIR$/Assets/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\price-range.css" afterPath="$PROJECT_DIR$/Assets/css/price-range.css" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\responsive.css" afterPath="$PROJECT_DIR$/Assets/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Vue_ConnexionAdmin/vue_ConnexionAdmin.php" afterPath="$PROJECT_DIR$/Modules/Module_ConnexionAdmin/Vue_ConnexionAdmin/vue_ConnexionAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -105,7 +42,153 @@
     <favorites_list name="BrainIT" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="vue_Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4097">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding>
+                <marker date="1423343403836" expanded="true" signature="1247:1341" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="1298:1341" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="1332:1341" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="1517:1564" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="1664:2883" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2115:2869" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2151:2854" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2189:2838" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2227:2371" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2456:2821" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2530:2636" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="2700:2803" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="3230:3397" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="3271:3397" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="3587:3603" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="3889:3976" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="4430:4560" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="4458:4552" placeholder="{...}" />
+                <marker date="1423343403836" expanded="true" signature="4666:5148" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="4674:5139" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="4938:5082" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="5303:6274" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="5312:6265" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="6399:7661" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="6408:7652" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="7778:8123" placeholder="..." />
+                <marker date="1423343403836" expanded="true" signature="7788:8113" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controleur_Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1530">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2984" max-vertical-offset="5882">
+              <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
+              <folding>
+                <marker date="1423342945113" expanded="true" signature="1140:1319" placeholder="SELECT DISTI..article..." />
+                <marker date="1423342945113" expanded="true" signature="1177:1231" placeholder="select idcat..categorie..." />
+                <marker date="1423342945113" expanded="true" signature="3805:4004" placeholder="INSERT INTO ..." />
+                <marker date="1423342945113" expanded="true" signature="5824:5878" placeholder="SELECT 1 fro..categorie..." />
+                <marker date="1423342945113" expanded="true" signature="8580:8609" placeholder="SELECT idArt..article..." />
+                <marker date="1423342945113" expanded="true" signature="9682:9908" placeholder="UPDATE artic..." />
+                <marker date="1423342945113" expanded="true" signature="12280:12342" placeholder="UPDATE artic..." />
+                <marker date="1423342945113" expanded="true" signature="13007:13068" placeholder="UPDATE artic..." />
+                <marker date="1423342945113" expanded="true" signature="13374:13435" placeholder="UPDATE artic..." />
+                <marker date="1423342945113" expanded="true" signature="13658:13706" placeholder="select * fro..photo..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue_Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1343">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <marker date="1423343014703" expanded="true" signature="906:1958" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1310:1951" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1345:1940" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1385:1925" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1428:1596" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1691:1906" placeholder="..." />
+                <marker date="1423343014703" expanded="true" signature="1754:1883" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1768">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <marker date="1423343027172" expanded="true" signature="642:746" placeholder="INSERT INTO ..." />
+                <marker date="1423343027172" expanded="true" signature="965:1033" placeholder="select * fro..user..." />
+                <marker date="1423343027172" expanded="true" signature="1230:1268" placeholder="select idPho..user..." />
+                <marker date="1423343027172" expanded="true" signature="1395:1480" placeholder="select photo..photo..." />
+                <marker date="1423343027172" expanded="true" signature="1613:1651" placeholder="select idPho..user..." />
+                <marker date="1423343027172" expanded="true" signature="1781:1869" placeholder="select photo..photo..." />
+                <marker date="1423343027172" expanded="true" signature="2004:2060" placeholder="UPDATE artic..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controleur_Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.88770056" vertical-offset="267" max-vertical-offset="1156">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,6 +205,15 @@
         <option value="$PROJECT_DIR$/Modules/Module_HomePage/Modele_HomePage/modele_HomePage.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Commande/Commande.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -130,9 +222,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="663" />
-    <option name="width" value="1257" />
-    <option name="height" value="1080" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -157,6 +250,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,174 +293,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_HomePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_HomePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modele_HomePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_Commande" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_Commande" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modele_Commande" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_Commande" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controleur_Commande" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_Categorie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module_Categorie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modele_Categorie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseDeDonnee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\BrainIT\Assets" />
+      <recent name="C:\wamp\www\BrainIT\Assets\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -383,15 +326,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="baf461c3-a88f-476d-a4c6-228e494c0422" server_name="index.php">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="baf461c3-a88f-476d-a4c6-228e494c0422" server_name="index.php">
       <method />
     </configuration>
     <list size="0" />
@@ -417,29 +360,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="0" width="1257" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39865434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5379679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33724833" sideWeight="0.36757624" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32564104" sideWeight="0.63242376" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -459,9 +402,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2520064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -488,11 +431,137 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4097">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <marker date="1423343403836" expanded="true" signature="1247:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1298:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1332:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1517:1564" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1664:2883" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2115:2869" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2151:2854" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2189:2838" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2227:2371" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2456:2821" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2530:2636" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2700:2803" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3230:3397" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3271:3397" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3587:3603" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3889:3976" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4430:4560" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4458:4552" placeholder="{...}" />
+            <marker date="1423343403836" expanded="true" signature="4666:5148" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4674:5139" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4938:5082" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="5303:6274" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="5312:6265" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="6399:7661" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="6408:7652" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="7778:8123" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="7788:8113" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1530">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2984" max-vertical-offset="5882">
+          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
+          <folding>
+            <marker date="1423342945113" expanded="true" signature="1140:1319" placeholder="SELECT DISTI..article..." />
+            <marker date="1423342945113" expanded="true" signature="1177:1231" placeholder="select idcat..categorie..." />
+            <marker date="1423342945113" expanded="true" signature="3805:4004" placeholder="INSERT INTO ..." />
+            <marker date="1423342945113" expanded="true" signature="5824:5878" placeholder="SELECT 1 fro..categorie..." />
+            <marker date="1423342945113" expanded="true" signature="8580:8609" placeholder="SELECT idArt..article..." />
+            <marker date="1423342945113" expanded="true" signature="9682:9908" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="12280:12342" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13007:13068" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13374:13435" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13658:13706" placeholder="select * fro..photo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1343">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1423343014703" expanded="true" signature="906:1958" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1310:1951" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1345:1940" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1385:1925" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1428:1596" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1691:1906" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1754:1883" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1768">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1423343027172" expanded="true" signature="642:746" placeholder="INSERT INTO ..." />
+            <marker date="1423343027172" expanded="true" signature="965:1033" placeholder="select * fro..user..." />
+            <marker date="1423343027172" expanded="true" signature="1230:1268" placeholder="select idPho..user..." />
+            <marker date="1423343027172" expanded="true" signature="1395:1480" placeholder="select photo..photo..." />
+            <marker date="1423343027172" expanded="true" signature="1613:1651" placeholder="select idPho..user..." />
+            <marker date="1423343027172" expanded="true" signature="1781:1869" placeholder="select photo..photo..." />
+            <marker date="1423343027172" expanded="true" signature="2004:2060" placeholder="UPDATE artic..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Commande.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="850">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="833">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="4624">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="612">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="6545">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3787" max-vertical-offset="4131">
           <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="6545">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3787" max-vertical-offset="4131">
           <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78205127" vertical-offset="3585" max-vertical-offset="4131">
           <caret line="236" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="6545">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70483005" vertical-offset="31" max-vertical-offset="612">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8585298" vertical-offset="163" max-vertical-offset="884">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="816">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="4607">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="986">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,6 +702,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8585298" vertical-offset="95" max-vertical-offset="816">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1343">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1423343014703" expanded="true" signature="906:1958" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1310:1951" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1345:1940" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1385:1925" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1428:1596" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1691:1906" placeholder="..." />
+            <marker date="1423343014703" expanded="true" signature="1754:1883" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1768">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1423343027172" expanded="true" signature="642:746" placeholder="INSERT INTO ..." />
+            <marker date="1423343027172" expanded="true" signature="965:1033" placeholder="select * fro..user..." />
+            <marker date="1423343027172" expanded="true" signature="1230:1268" placeholder="select idPho..user..." />
+            <marker date="1423343027172" expanded="true" signature="1395:1480" placeholder="select photo..photo..." />
+            <marker date="1423343027172" expanded="true" signature="1613:1651" placeholder="select idPho..user..." />
+            <marker date="1423343027172" expanded="true" signature="1781:1869" placeholder="select photo..photo..." />
+            <marker date="1423343027172" expanded="true" signature="2004:2060" placeholder="UPDATE artic..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1530">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2984" max-vertical-offset="5882">
+          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
+          <folding>
+            <marker date="1423342945113" expanded="true" signature="1140:1319" placeholder="SELECT DISTI..article..." />
+            <marker date="1423342945113" expanded="true" signature="1177:1231" placeholder="select idcat..categorie..." />
+            <marker date="1423342945113" expanded="true" signature="3805:4004" placeholder="INSERT INTO ..." />
+            <marker date="1423342945113" expanded="true" signature="5824:5878" placeholder="SELECT 1 fro..categorie..." />
+            <marker date="1423342945113" expanded="true" signature="8580:8609" placeholder="SELECT idArt..article..." />
+            <marker date="1423342945113" expanded="true" signature="9682:9908" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="12280:12342" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13007:13068" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13374:13435" placeholder="UPDATE artic..." />
+            <marker date="1423342945113" expanded="true" signature="13658:13706" placeholder="select * fro..photo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4097">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <marker date="1423343403836" expanded="true" signature="1247:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1298:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1332:1341" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1517:1564" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="1664:2883" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2115:2869" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2151:2854" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2189:2838" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2227:2371" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2456:2821" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2530:2636" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="2700:2803" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3230:3397" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3271:3397" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3587:3603" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="3889:3976" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4430:4560" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4458:4552" placeholder="{...}" />
+            <marker date="1423343403836" expanded="true" signature="4666:5148" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4674:5139" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="4938:5082" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="5303:6274" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="5312:6265" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="6399:7661" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="6408:7652" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="7778:8123" placeholder="..." />
+            <marker date="1423343403836" expanded="true" signature="7788:8113" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88770056" vertical-offset="267" max-vertical-offset="1156">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>

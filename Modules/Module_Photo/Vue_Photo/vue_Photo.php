@@ -1,9 +1,9 @@
 <?php
 
 class VuePhoto {
-	
-	function affichageFormPhoto($idArticle) {
-		echo '
+
+    function affichageFormPhoto($idArticle) {
+        echo '
 		<form method="post" action="index.php?Module=Photo&actionPhoto=1&idArticle='.$idArticle.'" enctype="multipart/form-data">
 			<p>Ajout d\'une photo</p>
 			<label for="mon_fichier">Fichier (tous formats | max. 16 Mo) :</label><br />
@@ -15,18 +15,18 @@ class VuePhoto {
 			
 		</form>
 		';
-	}
+    }
 
 
-	
-	function affichagePhotoArticle($req) {
-		
-		
-		//echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
-	
-	}
-	function affichagePhotoUser($req) {
-		echo '<div id="blueimp-gallery" class="blueimp-gallery">
+
+    function affichagePhotoArticle($req) {
+
+
+        //echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
+
+    }
+    function affichagePhotoUser($req) {
+        echo '<div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
     <!-- Controls for the borderless lightbox -->
@@ -57,17 +57,17 @@ class VuePhoto {
     </div>
 </div>
 ';
-echo '<div id="links">';
-		while($resultat = $req->fetch()) {
-			echo '<a href="'.$resultat['photo'].'" data-gallery>';
-		    echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
-	   		echo '</a>';
+        echo '<div id="links">';
+        while($resultat = $req->fetch()) {
+            echo '<a href="'.$resultat['photo'].'" data-gallery>';
+            echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
+            echo '</a>';
 
-   		}
-echo '</div>';
-	}
+        }
+        echo '</div>';
+    }
 
-	
+
 }
 
 ?>

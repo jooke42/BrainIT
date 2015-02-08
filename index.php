@@ -48,14 +48,15 @@ include_once("Assets/include/nav-horizontal.php");
 <?php
 include_once("Assets/include/footer.php");
 ?>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="Assets/js/jquery.js"></script>
 <script src="Assets/js/bootstrap.min.js"></script>
 <script src="Assets/js/jquery.scrollUp.min.js"></script>
 <script src="Assets/js/price-range.js"></script>
 <script src="Assets/js/jquery.prettyPhoto.js"></script>
 <script src="Assets/js/main.js"></script>
-
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="Assets/js/bootstrap-image-gallery.min.js"></script>
 </body>
 </html>
 

@@ -8,17 +8,17 @@ class ControleurPhoto {
 		$nomVue='Vue'.$module;
 		$nomModele='Modele'.$module;
 
-		$this->monModele=new $nomModele();		
-		$this->maVue=new $nomVue();	
+		$this->monModele=new $nomModele();
+		$this->maVue=new $nomVue();
 
 	}
 	function affichageFormPhoto($idArticle) {
 		$this->maVue->affichageFormPhoto($idArticle);
 	}
 	function uploadPhoto($idArticle,$index,$destination,$maxsize,$extensions) {
-		
+
 		$idPhoto=$this->monModele->uploadPhoto($idArticle,$index,$destination,$maxsize,$extensions);
-        return $idPhoto;
+		return $idPhoto;
 	}
 
 	function affichagePhotoReq() {
@@ -30,18 +30,16 @@ class ControleurPhoto {
 		return $req;
 	}
 
-	
+
 	function affichagePhotoArticle($req) {
 		$this->maVue->affichagePhotoArticle($req);
 	}
 	function affichagePhotoArticleComplet() {
-   		$req=$this->affichagePhotoArticleReq();
+		$req=$this->affichagePhotoArticleReq();
 		$this->affichagePhotoProfil($req);
 	}
-	function setPhotoPrincipale($idPhoto,$idArticle) {
-		
-		$this->monModele->setPhotoPrincipale($idPhoto,$idArticle);
-		
+	function setPhotoPrincipale($destination,$idArticle) {
+		$this->monModele->setPhotoPrincipale($destination,$idArticle);
 		header("Refresh: 0;URL='index.php?Module=Article&idArticle=$idArticle'");
 	}
 

@@ -1,35 +1,42 @@
 <?php
-if (!defined('TEST_INCLUDE')) {
-    throw new Exception ("Vous ne pouvez pas acceder directement à ce fichier");
-}
-include_once("Controleur_" . $module . "/controleur_" . $module . ".php");
-include_once("Vue_" . $module . "/vue_" . $module . ".php");
-include_once("Modele_" . $module . "/modele_" . $module . ".php");
+if (! defined ('TEST_INCLUDE'))
+    die ("Vous ne pouvez pas acceder directement à ce fichier");
 
-class Article extends Module{
-    function __construct(){
+include_once("Controleur_".$module."/controleur_".$module.".php");
+include_once("Vue_".$module."/vue_".$module.".php");
+include_once("Modele_".$module."/modele_".$module.".php");
 
-        $module = get_class($this);
+class Article extends Module {
+    function __construct() {
+        include_once("Modules/Module_Photo/Controleur_Photo/controleur_Photo.php");
+        include_once("Modules/Module_Photo/Modele_Photo/modele_Photo.php");
+        include_once("Modules/Module_Photo/Vue_Photo/vue_Photo.php");
 
-        $nomControleur = 'Controleur' . $module;
-        $monControleur = new $nomControleur($module);
+        $nomControleurPhoto='ControleurPhoto';
+        $monControleurPhoto=new $nomControleurPhoto("Photo");
+        $module=get_class($this);
+
+        $nomControleur='Controleur'.$module;
+        $monControleur=new $nomControleur($module);
 
 
-        if (isset($_GET['action'])) {
-            $action = $_GET['action'];
-        } else {
-            $action = 1;
+
+        if(!isset($action)) {
+            if(isset($_GET['action'])) {
+                $action=$_GET['action'];
+            }
+            else {
+                $action=0;
+            }
         }
+        switch($action) {
+            case 0:
 
-
-        switch ($action) {
-            case 1:
-
-                $monControleur->affichagePageArticle();
+                $monControleur->affichagePageArticle($monControleurPhoto);
 
                 break;
             case "affichageArticle":
-                $monControleur->affichagePageArticle();
+                $monControleur->affichagePageArticle($modulePhoto->monControleur);
                 break;
             case "pageActiverDesactiverArticle":
                 $monControleur->affichagePageActiverDesactiverArticle();
@@ -41,7 +48,6 @@ class Article extends Module{
                 $monControleur->desactiverArticle();
                 break;
             case "creerArticle":
-
                 $monControleur->creerArticle();
                 break;
             case "modifierArticle":
@@ -51,7 +57,6 @@ class Article extends Module{
                 $monControleur->modifierArticleSelection();
                 break;
             case "affichageCreerArticle":
-                echo "oklm";
                 $monControleur->AffichageCreerArticle();
                 break;
             case "affichageModifierArticle":
@@ -64,6 +69,7 @@ class Article extends Module{
     }
 
 }
+
 
 
 ?>
