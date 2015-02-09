@@ -2,7 +2,7 @@
 if (!defined('TEST_INCLUDE')) {
     throw new Exception ("Vous ne pouvez pas acceder directement à ce fichier");
 }
-include_once("/../Module_Article/Modele_Article/modele_Article.php");
+include_once("Modules/Module_Article/Modele_Article/modele_Article.php");
 include_once("Controleur_" . $module . "/controleur_" . $module . ".php");
 include_once("Vue_" . $module . "/vue_" . $module . ".php");
 include_once("Modele_" . $module . "/modele_" . $module . ".php");
