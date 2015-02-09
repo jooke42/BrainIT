@@ -23,7 +23,7 @@ class ControleurPanier {
 
     function ajoutPanier ($idArticle, $quantite) {
         $this->monModele->ajoutPanier($idArticle, $quantite);
-        header("Location: index.php?Module=panier&action=0");
+        header("Location: index.php?Module=Panier&action=0");
     }
 
     function modifierArticlePanier ($idArticle, $quantite) {
