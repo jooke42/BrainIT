@@ -1,4 +1,5 @@
 <?php ?>
+<div class="row">
 <footer id="footer">
     <div class="footer-widget">
         <div class="container">
@@ -59,3 +60,4 @@
     </div>
 
 </footer>
+</div>

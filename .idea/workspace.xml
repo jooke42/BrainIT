@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" />
       <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\demo.css" afterPath="$PROJECT_DIR$/Assets/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/footer.php" afterPath="$PROJECT_DIR$/Assets/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" afterPath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -29,85 +38,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vue_Article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
+      <file leaf-file-name="modele_Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="41.96154" vertical-offset="3233" max-vertical-offset="4097">
-              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5882">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
-                <marker date="1423416759429" expanded="true" signature="1251:1345" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="1302:1345" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="1336:1345" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="1525:1572" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="1707:2926" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2158:2912" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2194:2897" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2232:2881" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2270:2414" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2499:2864" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2573:2679" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="2743:2846" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="3391:3551" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="3432:3551" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="6652:7914" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="6661:7905" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="8051:8396" placeholder="..." />
-                <marker date="1423416759429" expanded="true" signature="8061:8386" placeholder="..." />
+                <marker date="1423444180786" expanded="true" signature="1140:1319" placeholder="SELECT DISTI..article..." />
+                <marker date="1423444180786" expanded="true" signature="1177:1231" placeholder="select idcat..categorie..." />
+                <marker date="1423444180786" expanded="true" signature="3877:4076" placeholder="INSERT INTO ..." />
+                <marker date="1423444180786" expanded="true" signature="5896:5950" placeholder="SELECT 1 fro..categorie..." />
+                <marker date="1423444180786" expanded="true" signature="8652:8681" placeholder="SELECT idArt..article..." />
+                <marker date="1423444180786" expanded="true" signature="9754:9980" placeholder="UPDATE artic..." />
+                <marker date="1423444180786" expanded="true" signature="12353:12418" placeholder="UPDATE artic..." />
+                <marker date="1423444180786" expanded="true" signature="13079:13140" placeholder="UPDATE artic..." />
+                <marker date="1423444180786" expanded="true" signature="13446:13507" placeholder="UPDATE artic..." />
+                <marker date="1423444180786" expanded="true" signature="13724:13772" placeholder="select * fro..photo..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controleur_Categorie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php">
+      <file leaf-file-name="vue_Panier.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modele_Categorie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0" vertical-offset="356" max-vertical-offset="1207">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.32866243" vertical-offset="1731" max-vertical-offset="2635">
+              <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
               <folding>
-                <marker date="1423415035209" expanded="true" signature="183:327" placeholder="SELECT idArt..article..." />
-                <marker date="1423415035209" expanded="true" signature="724:972" placeholder="SELECT idArt..article..." />
-                <marker date="1423415035209" expanded="true" signature="1455:1687" placeholder="SELECT idArt..article..." />
-                <marker date="1423415035209" expanded="true" signature="2104:2134" placeholder="select idArt..article..." />
+                <marker date="1423472435296" expanded="true" signature="193:757" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="219:757" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="228:377" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="423:757" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="465:757" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="478:738" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="507:724" placeholder="..." />
+                <marker date="1423472435296" expanded="false" signature="2982:3004" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3005:3297" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3031:3297" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3056:3169" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3190:3297" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3217:3297" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3247:3297" placeholder="..." />
+                <marker date="1423472435296" expanded="true" signature="3258:3297" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Categorie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php">
+      <file leaf-file-name="vue_HomePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="799">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2771">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="vue_Categorie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.076923" vertical-offset="94" max-vertical-offset="1054">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-horizontal.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controleur_Panier.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.538462" vertical-offset="21" max-vertical-offset="867">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/include/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1173">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav-horizontal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/include/nav-horizontal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28590077" vertical-offset="1600" max-vertical-offset="2397">
-              <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+            <state vertical-scroll-proportion="-14.423077" vertical-offset="679" max-vertical-offset="2397">
+              <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -116,13 +138,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/include/params_connexion.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Article/Module_Article/Modele_Article/modele_Article.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Commande/Modele_Commande/modele_Commande.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Commande/Controleur_Commande/controleur_Commande.php" />
@@ -133,14 +155,21 @@
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Article/Article.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Categorie/Controleur_Categorie/controleur_Categorie.php" />
         <option value="$PROJECT_DIR$/Assets/include/nav-horizontal.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" />
+        <option value="$PROJECT_DIR$/Assets/include/footer.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" />
       </list>
     </option>
   </component>
@@ -150,7 +179,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,7 +246,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Panier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Panier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vue_Panier" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,10 +287,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,15 +320,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="baf461c3-a88f-476d-a4c6-228e494c0422" server_name="index.php">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="baf461c3-a88f-476d-a4c6-228e494c0422" server_name="index.php">
       <method />
     </configuration>
     <list size="0" />
@@ -317,34 +368,62 @@
       <option name="project" value="LOCAL" />
       <updated>1423417935482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout module contact">
+      <created>1423424278799</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1423424278799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31278026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5089686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33724833" sideWeight="0.36757624" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32564104" sideWeight="0.63242376" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31085715" sideWeight="0.63242376" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33724833" sideWeight="0.36757624" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31085715" sideWeight="0.63242376" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5089686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -366,120 +445,18 @@
     <MESSAGE value="clean version bug upperCase resolu (&quot;CSS&quot; -&gt; &quot;css&quot;)&#10;" />
     <MESSAGE value="photo + produit" />
     <MESSAGE value="photo + produit + debug recherche produit" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo + produit + debug recherche produit" />
+    <MESSAGE value="ajout module contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout module contact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4097">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding>
-            <marker date="1423416759429" expanded="true" signature="1251:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1302:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1336:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1525:1572" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1707:2926" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2158:2912" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2194:2897" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2232:2881" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2270:2414" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2499:2864" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2573:2679" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2743:2846" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3391:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3432:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6652:7914" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6661:7905" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8051:8396" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8061:8386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1530">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2984" max-vertical-offset="5882">
-          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
-          <folding>
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select idcat..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT 1 fro..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT idArt..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select * fro..photo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1343">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1768">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select * fro..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,125 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4097">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding>
-            <marker date="1423416759429" expanded="true" signature="1251:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1302:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1336:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1525:1572" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1707:2926" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2158:2912" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2194:2897" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2232:2881" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2270:2414" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2499:2864" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2573:2679" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2743:2846" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3391:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3432:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6652:7914" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6661:7905" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8051:8396" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8061:8386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Controleur_Article/controleur_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1530">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2984" max-vertical-offset="5882">
-          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
-          <folding>
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select idcat..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT 1 fro..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT idArt..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select * fro..photo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1343">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1768">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select * fro..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="6545">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/include/params_connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70483005" vertical-offset="31" max-vertical-offset="612">
@@ -735,18 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Commande.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8585298" vertical-offset="95" max-vertical-offset="816">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="918">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1377">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,15 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.307692" vertical-offset="904" max-vertical-offset="1768">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select * fro..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select idPho..user..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="select photo..photo..." />
-            <marker date="1423343027172" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,26 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0590278" vertical-offset="513" max-vertical-offset="1530">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2079906" vertical-offset="4616" max-vertical-offset="5882">
-          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
-          <folding>
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select idcat..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT 1 fro..categorie..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="SELECT idArt..article..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
-            <marker date="1423416759428" expanded="true" signature="-1:-1" placeholder="select * fro..photo..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,63 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8819444" vertical-offset="479" max-vertical-offset="1343">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423343014703" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.96154" vertical-offset="3233" max-vertical-offset="4097">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding>
-            <marker date="1423416759429" expanded="true" signature="1251:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1302:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1336:1345" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1525:1572" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="1707:2926" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2158:2912" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2194:2897" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2232:2881" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2270:2414" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2499:2864" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2573:2679" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="2743:2846" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3391:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="3432:3551" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6652:7914" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="6661:7905" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8051:8396" placeholder="..." />
-            <marker date="1423416759429" expanded="true" signature="8061:8386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0" vertical-offset="356" max-vertical-offset="1207">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <marker date="1423415035209" expanded="true" signature="183:327" placeholder="SELECT idArt..article..." />
-            <marker date="1423415035209" expanded="true" signature="724:972" placeholder="SELECT idArt..article..." />
-            <marker date="1423415035209" expanded="true" signature="1455:1687" placeholder="SELECT idArt..article..." />
-            <marker date="1423415035209" expanded="true" signature="2104:2134" placeholder="select idArt..article..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="799">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,23 +632,193 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7669173" vertical-offset="0" max-vertical-offset="799">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Modele_Categorie/modele_Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.615385" vertical-offset="356" max-vertical-offset="1207">
+          <caret line="54" column="41" selection-start-line="52" selection-start-column="12" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.807692" vertical-offset="370" max-vertical-offset="1241">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.115385" vertical-offset="255" max-vertical-offset="1547">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.346154" vertical-offset="1707" max-vertical-offset="4097">
+          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Commande/Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="306" max-vertical-offset="1054">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/images/404/404.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/i7_badge_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/Recherche_image_b_b_80.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/bizarre-eyes1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/962955_0__62137[1].jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/images/shop/advertisement.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/images/shop/product7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/photo/index.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/error.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5882">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <marker date="1423444180786" expanded="true" signature="1140:1319" placeholder="SELECT DISTI..article..." />
+            <marker date="1423444180786" expanded="true" signature="1177:1231" placeholder="select idcat..categorie..." />
+            <marker date="1423444180786" expanded="true" signature="3877:4076" placeholder="INSERT INTO ..." />
+            <marker date="1423444180786" expanded="true" signature="5896:5950" placeholder="SELECT 1 fro..categorie..." />
+            <marker date="1423444180786" expanded="true" signature="8652:8681" placeholder="SELECT idArt..article..." />
+            <marker date="1423444180786" expanded="true" signature="9754:9980" placeholder="UPDATE artic..." />
+            <marker date="1423444180786" expanded="true" signature="12353:12418" placeholder="UPDATE artic..." />
+            <marker date="1423444180786" expanded="true" signature="13079:13140" placeholder="UPDATE artic..." />
+            <marker date="1423444180786" expanded="true" signature="13446:13507" placeholder="UPDATE artic..." />
+            <marker date="1423444180786" expanded="true" signature="13724:13772" placeholder="select * fro..photo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2771">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.076923" vertical-offset="94" max-vertical-offset="1054">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/include/nav-horizontal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28590077" vertical-offset="1600" max-vertical-offset="2397">
-          <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+        <state vertical-scroll-proportion="-14.423077" vertical-offset="679" max-vertical-offset="2397">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.538462" vertical-offset="21" max-vertical-offset="867">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/include/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32866243" vertical-offset="1731" max-vertical-offset="2635">
+          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+          <folding>
+            <marker date="1423472435296" expanded="true" signature="193:757" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="219:757" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="228:377" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="423:757" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="465:757" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="478:738" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="507:724" placeholder="..." />
+            <marker date="1423472435296" expanded="false" signature="2982:3004" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3005:3297" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3031:3297" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3056:3169" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3190:3297" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3217:3297" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3247:3297" placeholder="..." />
+            <marker date="1423472435296" expanded="true" signature="3258:3297" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

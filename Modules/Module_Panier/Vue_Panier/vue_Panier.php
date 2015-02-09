@@ -36,19 +36,19 @@ class VuePanier {
 					</thead>
 					
 					<tbody>'; ?>
-		
+						<form id="panierForm" action="index.php?Module=Panier&action=2" method="POST">
 					<?php
 	
 						$total = 0;
 						$i = 0;
-						while($resultat = $req->fetch()) { 
+						foreach($req as $resultat) {
 					
 						$i++;
 					?>
 								
 							<tr>
 								<td class="cart_product">
-									<a href=""><img style="width: 120px; height: 120px;" src="Assets/images/cart/no_photo.gif" alt=""></a>
+									<a href=""><img style="width: 120px; height: 120px;" src="<?php echo $resultat['Photo'];?>" alt=""></a>
 								</td>
 
 								<td class="cart_description">
@@ -75,7 +75,7 @@ class VuePanier {
 								<td class="cart_quantity" style="padding-right: 25px;">
 									<div class="cart_quantity_button">
 										<a class="cart_quantity_up" onClick="plus(<?php echo $i; ?>, <?php echo $resultat['quantiteStock'] ?>);" href="#"> + </a>
-										<input id="champ_quantite<?php echo $i ?>" class="cart_quantity_input" type="text" name="quantity" value="<?php echo $resultat['quantite'];?>" autocomplete="off" size="2">
+										<input id="champ_quantite<?php echo $i ?>" class="cart_quantity_input" type="text" name="<?php echo $resultat['idArticle'] ;?>" value="<?php echo $resultat['quantite'];?>" autocomplete="off" size="2">
 										<a class="cart_quantity_down" onClick="moins(<?php echo $i; ?>);" href="#"> - </a>
 									</div>
 								</td>
@@ -92,12 +92,12 @@ class VuePanier {
 						</tr>
 			
 			
-			
+
 							<?php
 			
 						}
 
-			 echo '</tbody>
+			 echo '</form></tbody>
 				</table>
 			</div>
 		</div>
@@ -113,13 +113,13 @@ class VuePanier {
 				<div class="col-sm-6">
 					<div class="total_area">
 						<ul>
-							<li>Nombre d\'articles : <span>'; ?><?php echo $i ?><?php echo'</span></li>
+							<li>Nombre d\'articles : <span>'; ?><?php echo $i; ?><?php echo'</span></li>
 							<!--<li>Test <span>$2</span></li>-->
 							<li>Frais de port : <span>Offerts</span></li>
 							<li>Total pour ce panier : <span>'; ?><?php echo $total." €";?><?php echo'</span></li>
 						</ul>
-							<a class="btn btn-default update" href="">Mettre à jour les modifications</a>
-							<a class="btn btn-default check_out" href="">Passer la commande</a>
+							';?><a class="btn btn-default update" href="#" onclick="document.getElementById('panierForm').submit()">Mettre à jour les modifications</a>
+							<?php echo '<a class="btn btn-default check_out" href="index.php?Module=Commande&action=creationCommande">Passer la commande</a>
 					</div>
 				</div>
 			</div>

@@ -101,14 +101,14 @@ class VueArticle{
 						</div>
 						<div class="col-sm-7">
 							<div class="product-information"><!--/product-information-->
-								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
+								<img src="Assets/images/product-details/new.jpg" class="newarrival" alt="" />
 								<h2>';
 								echo $produit['libelle'];
 								echo '</h2>';
 								echo '<p>';
 								echo $produit['reference'];
 								echo '</p>';
-								echo '<img src="images/product-details/rating.png" alt="" />
+								echo '<img src="Assets/images/product-details/rating.png" alt="" />
 								<span>
 									<span>';
 								echo $produit['prix'];
@@ -117,7 +117,7 @@ class VueArticle{
 									<input type="text" value="1" />
 									<button type="button" class="btn btn-fefault cart" onclick="document.location.href=\'index.php?Module=Panier&action=1&idArticle='.$produit['idArticle'].'\'">
 										<i class="fa fa-shopping-cart"></i>
-										Add to cart
+										Ajouter au panier
 									</button>
 								</span>
 								<p><b>Availability:</b> En stock (';
@@ -128,7 +128,7 @@ class VueArticle{
 								echo substr($produit['description'],0, 400);
 								echo '<a id="lirelaSuite" onclick=getdesc() >Lire la suite ...</a>';
 								
-								echo '<a href=""><img src="images/product-details/share.png" class="share img-responsive"  alt="" /></a>
+								echo '<a href=""><img src="Assets/images/product-details/share.png" class="share img-responsive"  alt="" /></a>
 							</div><!--/product-information-->
 						</div>
 					</div><script>function getDesc()

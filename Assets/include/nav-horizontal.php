@@ -61,7 +61,7 @@
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-user"></i> Compte</a></li>
+                            <li><a href="index.php?Module=Profil"><i class="fa fa-user"></i> Compte</a></li>
                             <!--<li><a href="#"><i class="fa fa-star"></i> Liste de souhait</a></li>-->
                             <!--<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
                             <li><a href="index.php?Module=Panier&action=0"><i class="fa fa-shopping-cart"></i>

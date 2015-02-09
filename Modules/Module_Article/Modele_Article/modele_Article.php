@@ -42,7 +42,7 @@ class ModeleArticle extends DBMapper
         $this->_prix          = $donneesArticle[ 'prix' ];
         $this->_quantiteStock = $donneesArticle[ 'quantiteStock' ];
         $this->_actif         = $donneesArticle[ 'actif' ];
-        $this->_Photo		  = $donneesArticle[ 'Photo' ];
+        $this->_Photo		  = file_exists($donneesArticle['Photo'])?$donneesArticle[ 'Photo' ]:"Assets/images/cart/no_photo.gif";
     }
     /**     Cette méthode permet d'envoyer des requetes sur la BD
      * et de récupérer le resultat de la requete

@@ -60,12 +60,23 @@ class ModelePanier extends DBMapper {
 	}
 
 	function afficherPanier() {
-
 		$idClient = $_SESSION['idClient'];
-        $req = self::$database->prepare("select * from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
-        $req->execute();
-		
-		return $req;
+		$req = static::$database->prepare("select article.idArticle,quantite from panier, article where idClient='$idClient' and panier.idArticle=article.idArticle");
+		$req->execute();
+		$resultat = $req->fetchall();
+
+        $articles=array();
+
+
+		foreach($resultat as $article){
+			$art=new ModeleArticle($article['idArticle']);
+			$art=$art->getArticle();
+			$art['quantite']=$article['quantite'];
+			array_push($articles,$art);
+		}
+
+
+		return $articles;
 
 	}
 

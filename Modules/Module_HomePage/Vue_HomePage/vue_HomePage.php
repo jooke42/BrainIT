@@ -23,12 +23,12 @@ class VueHomePage {
                             <div class="product-image-wrapper">
                                 <div class="single-products">
                                     <div class="productinfo text-center">
-                                        <img src="<?php echo $article["Photo"];?>" alt=""/>
+                                        <img style="height:200px;" src="<?php echo $article["Photo"];?>" alt=""/>
 
                                         <h2><?php$article['prix'] . "  €" ?></h2>
 
                                         <p><?php echo $article['libelle']; ?></p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                        <a href="<?php echo 'index.php?Module=Panier&action=1&idArticle='.$article['idArticle'];?>" class="btn btn-default add-to-cart"><i
                                                 class="fa fa-shopping-cart"></i>Ajouter
                                             au panier</a>
                                     </div>
@@ -37,7 +37,7 @@ class VueHomePage {
                                             <h2><?php$article['prix'] . "  €" ?></h2>
 
                                             <p><?php echo $article['libelle']; ?></p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                            <a href="<?php echo 'index.php?Module=Panier&action=1&idArticle='.$article['idArticle'];?>" class="btn btn-default add-to-cart"><i
                                                     class="fa fa-shopping-cart"></i>Ajouter au panier</a>
                                         </div>
                                     </div>
