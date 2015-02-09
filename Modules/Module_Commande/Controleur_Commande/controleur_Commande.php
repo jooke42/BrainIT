@@ -20,13 +20,6 @@ class ControleurCommande
         $this->maVue = new $nomVue();
     }
 
-    function setDateLivraison ()
-    {
-        $this->setModele ();
-        echo $_POST[ 'dateLivraison' ];
-        $this->monModele->validerLivraison ( $_POST[ 'dateLivraison' ] );
-    }
-
     function setModele ()
     {
         $this->monModele = new ModeleCommande( ModeleCommande::getLastIdCommande ( $_SESSION[ 'idClient' ] ) );
@@ -52,12 +45,14 @@ class ControleurCommande
                 echo "Echec du paiement";
             }
         } else {
-            //TODO modifier le lien
+
+//A SAVE
             ?>
             <body onload="submit()" >
 
 
-            <form action="#" method="post" id="form" >
+            <form action="http://amfbank.esy.es/METHODOPROJET/local_AMF/index.php?module=APIPaiement&action=afficherPopup" method="post" id="form" >
+		<input type="hidden" name="nom" value="BRAINIT" />
                 <input type="hidden" name="montant" value='<?= $this->monModele->getMontantTotal () ?>' >
                 <input type="hidden" name="url" value="<?= ModeleCommande::$urlPaiement ?>" />
                 <input type="submit" value="envoyer" >
@@ -82,7 +77,7 @@ class ControleurCommande
         $this->setModele ();
         if ( $this->monModele->getDateLivraison () == NULL ) {
             if ( isset( $_SESSION[ 'token' ] ) ) {
-                // echo"J'ai déjà une session avec un token";
+                 //echo"J'ai déjà une session avec un token";
                 $this->commandeLivraison ();
             } else if ( $_POST[ 'token' ] ) {
                 $_SESSION[ 'token' ] = $_POST[ 'token' ];
@@ -102,6 +97,11 @@ class ControleurCommande
         $this->setModele ();
         $url = ModeleCommande::$urlLivraison;
         if ( isset( $_SESSION[ 'token' ] ) ) {
+
+		if(isset($_POST['dateLivraison'])){
+			$this->monModele->validerLivraison($_POST['dateLivraison']);
+			header('Location: index.php?Module=Commande&action=affichageFinCommande');
+		}else{
             echo '<body onload="submit()">';
             ?>
 
@@ -122,6 +122,7 @@ class ControleurCommande
     </script>
    </body>
    ';
+		}
         } else {
             $this->connexionLivraison ();
         }
@@ -179,10 +180,12 @@ class ControleurCommande
             if ( $this->monModele->getStatus () == TRUE && $this->monModele->getDateLivraison () != NULL ) {
                 ModeleCommande::creationCommande ( $_SESSION[ 'idClient' ] );
                 header('Location: index.php?Module=Commande&action=envoieBanque');
-            } else {
-                die( "Veuillez finir de confirmer la commande précédente avant d'en créer une nouvelle ; id Commande :" . ModeleCommande::getLastIdCommande ( $_SESSION[ 'idClient' ] ) );
+            } else if($this->monModele->getStatus () == FALSE){
+		header('Location: index.php?Module=Commande&action=envoieBanque');
+
+		}else if($this->monModele->getDateLivraison() == NULL) {
+               		header('Location: index.php?Module=Commande&action=envoieFournisseur');
             }
         }
     }
 }
-
