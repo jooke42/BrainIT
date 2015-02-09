@@ -41,6 +41,7 @@ class ControleurCommande
         if ( isset( $_POST[ 'validation' ] ) ) {
             if ( $_POST[ 'validation' ] == TRUE ) {
                 $this->monModele->validerPaiementCommande ();
+                header('Location: index.php?Module=Commande&action=envoieFournisseur');
             } else {
                 echo "Echec du paiement";
             }
