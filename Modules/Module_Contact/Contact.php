@@ -1,0 +1,115 @@
+<?php
+if (!defined('TEST_INCLUDE')){
+    throw new Exception ("Vous ne pouvez pas acceder directement à ce fichier");
+}?>
+
+<body>
+	<div id="contact-page" class="container">
+		<div class="bg">
+			<div class="row">    		
+				<div class="col-sm-12">    			   			
+					<h2 class="title text-center">Où nous <strong>Contacter ?</strong></h2>    			    				    				
+					<div id="gmap" class="contact-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7799695909416!2d2.4642280000000003!3d48.862406000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0fe5502b116430be!2sIUT+de+Montreuil!5e0!3m2!1sfr!2sfr!4v1421679730111" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+					</div>
+				</div>			 		
+			</div>    	
+			<div class="row">  	
+				<div class="col-sm-8">
+					<div class="contact-form">
+						<h2 class="title text-center">Commentaire</h2>
+						<div class="status alert alert-success" style="display: none"></div>
+						<form id="main-contact-form" action="index.php?Module=Contact" class="contact-form row" name="contact-form" method="post">
+						    <div class="form-group col-md-6">
+						        <input type="text" name="name" class="form-control" required="required" placeholder="Nom">
+						    </div>
+						    <div class="form-group col-md-6">
+						        <input type="email" name="email" class="form-control" required="required" placeholder="Email">
+						    </div>
+						    <!--<div class="form-group col-md-12">
+						        <input type="text" name="subject" class="form-control" required="required" placeholder="Objet">
+						    </div>-->
+						    <div class="form-group col-md-12">
+						        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Votre message..."></textarea>
+						    </div>                        
+						    <div class="form-group col-md-12">
+								<input type="submit" name="submit" class="btn btn-primary pull-right" value="Envoyer un mail">					        
+								<input type="hidden" name="navigateur" value="1">								
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="contact-info">
+						<h2 class="title text-center">Informations</h2>
+						<address>
+							<p>Brain-IT Inc.</p>
+							<p>140 Rue de la Nouvelle France</p>
+							<p>Montreuil, France</p>
+							<p>Mobile: 06 12 34 56 78</p>
+							<p>Email: brain-it@domain.com</p>
+						</address>
+						<div class="social-networks"> <!-- FAIRE UNE PAGE FACEBOOK FICTIVE ? -->
+							<h2 class="title text-center">Réseau Social</h2>
+							<ul>
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>    			
+			</div>  
+		</div>	
+	</div><!--/#contact-page-->
+
+<?php class Contact extends Module {
+    function __construct () {
+
+		$naviguateur = null;
+
+		if(isset($_POST['naviguateur']))
+			$naviguateur = $_POST['naviguateur'];
+
+
+		if($naviguateur == 1)
+			$this->envoyerMail();
+
+	}	
+
+	function envoyerMail() {
+		
+		if(isset($_POST) && isset($_POST['nom']) && isset($_POST['email']) && isset($_POST['message'])){
+			if(!empty($_POST['nom']) && !empty($_POST['email']) && !empty($_POST['message'])){
+				$destinataire = "exemple@mail.fr";
+				$sujet = "Demande de contact";
+				$message = "Nom : ".$_POST['nom']."\r\n";
+				$message = "Adresse email : ".$_POST['email']."\r\n";
+				$message = "Message : ".$_POST['message']."\r\n";
+				$entete = 'From: '.$_POST['email']."\r\n".
+					'Reply-To: '.$_POST['email']."\r\n".
+				'X-Mailer: PHP/'.phpversion();
+				if (mail($destinataire,$sujet,$message,$entete)){
+					echo 'Message envoyé';
+				} else {
+		 			echo "Une erreur est survenue lors de l'envoi du formulaire par email";
+				}
+			}
+		}
+
+	}
+
+	function afficherPageContact() {}
+
+}
+
+?>
