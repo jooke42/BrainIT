@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b70f61-7521-4596-ae4e-dc5994042bc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Panier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Controleur_Panier/controleur_Panier.php" />
       <change type="MODIFICATION" beforePath="C:\wamp\www\BrainIT\Assets\css\demo.css" afterPath="$PROJECT_DIR$/Assets/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/footer.php" afterPath="$PROJECT_DIR$/Assets/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Modele_Article/modele_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Modele_Panier/modele_Panier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" afterPath="$PROJECT_DIR$/Assets/include/nav-horizontal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" afterPath="$PROJECT_DIR$/Modules/Module_Article/Vue_Article/vue_Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" afterPath="$PROJECT_DIR$/Modules/Module_Categorie/Vue_Categorie/vue_Categorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" afterPath="$PROJECT_DIR$/Modules/Module_HomePage/Vue_HomePage/vue_HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" afterPath="$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainIT.iws" />
@@ -62,8 +52,8 @@
       <file leaf-file-name="vue_Panier.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32866243" vertical-offset="1731" max-vertical-offset="2635">
-              <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.13375796" vertical-offset="1731" max-vertical-offset="2635">
+              <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
               <folding>
                 <marker date="1423472435296" expanded="true" signature="193:757" placeholder="..." />
                 <marker date="1423472435296" expanded="true" signature="219:757" placeholder="..." />
@@ -374,13 +364,20 @@
       <option name="project" value="LOCAL" />
       <updated>1423424278799</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout module contact">
+      <created>1423473369106</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1423473369106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -396,7 +393,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -464,6 +460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,6 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1156">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,6 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.807692" vertical-offset="370" max-vertical-offset="1241">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,6 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.115385" vertical-offset="255" max-vertical-offset="1547">
           <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="13.346154" vertical-offset="1707" max-vertical-offset="4097">
           <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Panier/Vue_Panier/vue_Panier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32866243" vertical-offset="1731" max-vertical-offset="2635">
-          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.13375796" vertical-offset="1731" max-vertical-offset="2635">
+          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
           <folding>
             <marker date="1423472435296" expanded="true" signature="193:757" placeholder="..." />
             <marker date="1423472435296" expanded="true" signature="219:757" placeholder="..." />
