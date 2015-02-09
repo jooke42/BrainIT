@@ -6,8 +6,8 @@ if ( !defined ( 'TEST_INCLUDE' ) )
 
 class ModeleCommande extends DBMapper
 {
-    static    $urlPaiement  = "http://pageperso.iut.univ-paris8.fr/~bghezali/boutique/v2/index.php?Module=Commande&action=envoiePaiement"; // URL de retour de la banque
-    static    $urlLivraison = "http://pageperso.iut.univ-paris8.fr/~bghezali/boutique/v2/index.php?Module=Commande&action=envoieFournisseur"; // URL de retour de la livraison protected $idCommande;
+    static    $urlPaiement  = "http://brainit.esy.es/index.php?Module=Commande&action=envoiePaiement"; // URL de retour de la banque
+    static    $urlLivraison = "http://brainit.esy.es/index.php?Module=Commande&action=envoieFournisseur"; // URL de retour de la livraison protected $idCommande;
     protected $status;// Etat paiement
     protected $dateLivraison;//Etat livraison
     protected $listeArticles;
