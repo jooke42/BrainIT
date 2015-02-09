@@ -21,22 +21,16 @@ class Article extends Module {
 
 
 
-        if(!isset($action)) {
             if(isset($_GET['action'])) {
                 $action=$_GET['action'];
             }
             else {
                 $action=0;
             }
-        }
+
         switch($action) {
-            case 0:
-
-                $monControleur->affichagePageArticle($monControleurPhoto);
-
-                break;
             case "affichageArticle":
-                $monControleur->affichagePageArticle($modulePhoto->monControleur);
+                $monControleur->affichagePageArticle($monControleurPhoto);
                 break;
             case "pageActiverDesactiverArticle":
                 $monControleur->affichagePageActiverDesactiverArticle();
@@ -61,6 +55,10 @@ class Article extends Module {
                 break;
             case "affichageModifierArticle":
                 $monControleur->affichageModifierArticle();
+                break;
+           case 0:
+
+                $monControleur->affichagePageArticle($monControleurPhoto);
                 break;
             default:
                 echo "default";
