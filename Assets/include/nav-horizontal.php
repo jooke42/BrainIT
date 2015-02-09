@@ -105,7 +105,7 @@
                                     <li><a href="login.html">Login</a></li>
                                 </ul>
                             </li>-->
-                            <li><a href=index.php?Module=Categorie>Produits</a></li>
+                            <li><a href="index.php?Module=Categorie">Produits</a></li>
                             <!--<li><a href="product-details.html">Détail des produits</a></li>-->
                             <li><a href="index.php?Module=Panier&action=0">Panier</a></li>
                             <!--<li><a href="checkout.html">Checkout</a></li>-->
