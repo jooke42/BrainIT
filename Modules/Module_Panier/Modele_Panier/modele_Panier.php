@@ -15,7 +15,9 @@ class ModelePanier extends DBMapper {
 		$req_select = self::$database->prepare("select idArticle from panier where idArticle=$idArticle and idClient=$idClient");
 		$req_select->execute();
 
-		if($req_select->fetch()[0] == null) {
+		$req=$req_select->fetch();
+		$req=$req[0];
+		if($req == null) {
 			
 			$req = self::$database->prepare("insert into panier (idClient,idArticle,quantite) VALUES ('$idClient','$idArticle','$quantite')");  
 			$req->execute();
