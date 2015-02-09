@@ -25,7 +25,7 @@ class VueHomePage {
                                     <div class="productinfo text-center">
                                         <img style="height:200px;" src="<?php echo $article["Photo"];?>" alt=""/>
 
-                                        <h2><?php$article['prix'] . "  €" ?></h2>
+                                        <h2><?php echo $article['prix'] . "  €" ?></h2>
 
                                         <p><?php echo $article['libelle']; ?></p>
                                         <a href="<?php echo 'index.php?Module=Panier&action=1&idArticle='.$article['idArticle'];?>" class="btn btn-default add-to-cart"><i
@@ -34,7 +34,7 @@ class VueHomePage {
                                     </div>
                                     <div class="product-overlay">
                                         <div class="overlay-content">
-                                            <h2><?php$article['prix'] . "  €" ?></h2>
+                                            <h2><?php echo $article['prix'] . "  €" ?></h2>
 
                                             <p><?php echo $article['libelle']; ?></p>
                                             <a href="<?php echo 'index.php?Module=Panier&action=1&idArticle='.$article['idArticle'];?>" class="btn btn-default add-to-cart"><i
