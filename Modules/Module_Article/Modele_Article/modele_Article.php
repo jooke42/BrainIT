@@ -29,7 +29,8 @@ class ModeleArticle extends DBMapper
             'idArticle' => $idArticle
         );
         // On met [0] car la fonction nous retourne une liste de tuples, or, ici on en a juste un seul tuple car idArticle UNIQUE
-        $donneesArticle = self::requeteFromBD ( "SELECT DISTINCT * FROM article join (select idcategorie,libelle as categorie from categorie) as categorie on article.idcategorie=categorie.idcategorie WHERE idArticle = :idArticle", $donnees )[0];
+        $donneesArticle = self::requeteFromBD ( "SELECT DISTINCT * FROM article join (select idcategorie,libelle as categorie from categorie) as categorie on article.idcategorie=categorie.idcategorie WHERE idArticle = :idArticle", $donnees );
+        $donneesArticle=$donneesArticle[0];
         if ( $donneesArticle == NULL ) {
             throw new Exception( "L'identifiant d'article :" . $idArticle . " n'existe pas." );
         }
